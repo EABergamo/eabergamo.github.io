@@ -11,7 +11,7 @@ redirect_from:
 
 Education
 ======
-* **Bachelor of Science in Engineering** 
+* **Bachelor of Science in Engineering**   
   *University of Pennsylvania (2019-2023)*
   * **Major:** Systems Science & Engineering
   * **Minors:** Computer & Information Science, Mathematics
