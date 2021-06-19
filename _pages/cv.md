@@ -69,10 +69,7 @@ Professional Experience
 * **Penn Engineering Orientation Peer Advisor Fellow**  
   *May 2020 – Present*
 
-  * Responsible for helping first-year students in their transition to Penn by sharing strategies for academic success and
-
-    information about campus resources
-
+  * Responsible for helping first-year students in their transition to Penn by sharing strategies for academic success and information about campus resources
   * Coordinated a group of upperclassmen to organize events to integrate the incoming members of the Penn Engineering community
 
 * **Member of the Brazil National Fencing Team**  
