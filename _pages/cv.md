@@ -11,48 +11,29 @@ redirect_from:
 
 Education
 ======
-* B.S. in GitHub, GitHub University, 2012
-* M.S. in Jekyll, GitHub University, 2014
-* Ph.D in Version Control Theory, GitHub University, 2018 (expected)
+* **Bachelor of Science in Engineering (2019-2023)**
+  *University of Pennsylvania* 
+  * **Major:** Systems Science & Engineering
+  * **Minors:** Computer & Information Science, Mathematics
+  * **Relevant coursework: **CIS 121 (Data Structures & Algorithms), CIS 120 (Programming Languages & Techniques II), CIS 545 (Big Data Analytics), ESE 400 (Engineering Economics), ESE 204 (Decision Models), MATH 313 (Computational Linear Algebra), OIDD 245 (Analytics & the Digital Economy)
 
-Work experience
-======
-* Summer 2015: Research Assistant
-  * Github University
-  * Duties included: Tagging issues
-  * Supervisor: Professor Git
-
-* Fall 2015: Research Assistant
-  * Github University
-  * Duties included: Merging pull requests
-  * Supervisor: Professor Hub
 Skills
 ======
-* Skill 1
-* Skill 2
-  * Sub-skill 2.1
-  * Sub-skill 2.2
-  * Sub-skill 2.3
-* Skill 3
+* **Languages:**
+  * English (fluent)
+  * Portuguese (fluent, native)
+  * Spanish (professional proficiency)
+  * Italian (limited proficiency)
+  
+* **Technical Skills**
+  * Python (advanced)
+  * Java (advanced)
+  * Functional programming in OCaml (basic)
+  * Tableau (advanced)
+  * LaTeX (advanced)
+  * Microsoft Office (advanced)
 
-Publications
+Professional Experience
 ======
-  <ul>{% for post in site.publications %}
-    {% include archive-single-cv.html %}
-  {% endfor %}</ul>
-
-Talks
-======
-  <ul>{% for post in site.talks %}
-    {% include archive-single-talk-cv.html %}
-  {% endfor %}</ul>
-
-Teaching
-======
-  <ul>{% for post in site.teaching %}
-    {% include archive-single-cv.html %}
-  {% endfor %}</ul>
-
-Service and leadership
-======
-* Currently signed in to 43 different slack teams
+* **CIS 110 (Introduction to Computer Science) Teaching Assistant**
+  *University of Pennsylvania*
