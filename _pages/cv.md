@@ -12,7 +12,8 @@ redirect_from:
 Education
 ======
 * **Bachelor of Science in Engineering**   
-  *University of Pennsylvania (2019-2023)*
+  *University of Pennsylvania*  
+  *2019 – 2023*
   * **Major:** Systems Science & Engineering
   * **Minors:** Computer & Information Science, Mathematics
   * **Relevant coursework:** CIS 121 (Data Structures & Algorithms), CIS 120 (Programming Languages & Techniques II), CIS 545 (Big Data Analytics), ESE 400 (Engineering Economics), ESE 204 (Decision Models), MATH 313 (Computational Linear Algebra), OIDD 245 (Analytics & the Digital Economy)
@@ -35,5 +36,48 @@ Skills
 
 Professional Experience
 ======
-* **Introduction to Computer Science (CIS 110) Teaching Assistant**
-  *University of Pennsylvania (January 2021 – Present)*
+* **CIS 110 Teaching Assistant**  
+  *University of Pennsylvania*  
+  *January 2021 – Present*
+
+  * Responsible for holding office hours and debugging help for almost 200 students in the introductory Computer Science class (object-oriented programming in Java)
+  * Hosted and prepared material for special Sunday Review Sessions dedicated to providing assistance for students that required additional help with the class content
+
+* **ESE 111 Teaching Assistant**  
+  *University of Pennsylvania*  
+  *September 2020 – December 2020*
+
+  * Collaborated with other teaching assistants and faculty members to transition the introductory class for electrical and systems engineers to a fully online format for the 2020 fall semester, revamping labs and class structure for over 40 students
+  * Designed lab activities and prepared Arduino code to introduce students to IoT technologies through the Blynk platform
+
+* **Summer Intern**  
+  *VTEX*
+  *July 2020 – August 2020* 
+
+  * Devised an overhaul of the customer support experience to increase ticket deflection. Simulations modeled a decrease of 30% in the number of tickets opened while increasing the interactions between users and the company’s Knowledge Base
+  * Designed a highly viable and scalable solution (including support website revamping and modifications in the consumer journey) through direct collaboration with a multidisciplinary group of interns and product managers
+
+  # Leadership & Other Experience
+
+* **NCAA Division I Fencing Student-Athlete**  
+  *September 2019 – Present*
+
+  * Varsity athlete at the University of Pennsylvania Men’s Saber Squad
+  * Participates on an average of three hours of practice per day in addition to demanding Engineering curriculum
+  * Brazil’s national junior champion in 2018, individual 2nd place at the 2019 South American Fencing Championship
+
+* **Penn Engineering Orientation Peer Advisor Fellow**  
+  *May 2020 – Present*
+
+  * Responsible for helping first-year students in their transition to Penn by sharing strategies for academic success and
+
+    information about campus resources
+
+  * Coordinated a group of upperclassmen to organize events to integrate the incoming members of the Penn Engineering community
+
+* **Member of the Brazil National Fencing Team**  
+  *January 2016 – September 2019* 
+
+  * Member of Brazil’s delegation at the 2019 Pan-American Games in Peru
+  * Visited and exposed to the culture of over 20 countries during trips as member of the national team
+
