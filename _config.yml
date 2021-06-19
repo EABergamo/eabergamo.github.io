@@ -10,7 +10,7 @@ locale                   : "en-US"
 title                    : "Enzo Bergamo"
 title_separator          : "-"
 name                     : &name "Enzo Bergamo"
-description              : &description "System Science & Engineering student @ UPenn"
+description              : &description "Systems Science & Engineering student @ UPenn"
 url                      : https://eabergamo.github.io # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
 repository               : "eabergamo/eabergamo.github.io"
@@ -102,11 +102,11 @@ author:
   instagram        :
   impactstory      : #"https://profiles.impactstory.org/u/xxxx-xxxx-xxxx-xxxx"
   lastfm           :
-  linkedin         : "https://www.linkedin.com/in/eabergamo/"
+  linkedin         : "https://www.linkedin.com/in/eabergamo/
   orcid            : 
   pinterest        :
   soundcloud       :
-  stackoverflow    : # http://stackoverflow.com/users/123456/username
+  stackoverflow    : 
   steam            :
   tumblr           :
   twitter          : 
@@ -255,7 +255,7 @@ sass:
 permalink: /:categories/:title/
 # paginate: 5 # amount of posts to show
 # paginate_path: /page:num/
-timezone: America/Los_Angeles # http://en.wikipedia.org/wiki/List_of_tz_database_time_zones
+timezone: America/New_York # http://en.wikipedia.org/wiki/List_of_tz_database_time_zones
 
 
 # Plugins
