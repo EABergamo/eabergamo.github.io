@@ -7,7 +7,7 @@ redirect_from:
   - /resume
 ---
 
-A PDF, print-friendly version of my resume can be found [here](www.enzobergamo.com/files/enzo_bergamo-resume.pdf).
+A PDF, print-friendly version of my resume can be found [here(/[files/enzo_bergamo-resume.pdf).
 
 Education
 ======
