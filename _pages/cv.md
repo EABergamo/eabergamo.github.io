@@ -15,8 +15,12 @@ Education
   *University of Pennsylvania*  
   *2019 – 2023*
   * **Major:** Systems Science & Engineering
+  
   * **Minors:** Computer & Information Science, Mathematics
+  
   * **Relevant coursework:** CIS 121 (Data Structures & Algorithms), CIS 120 (Programming Languages & Techniques II), CIS 545 (Big Data Analytics), ESE 400 (Engineering Economics), ESE 204 (Decision Models), MATH 313 (Computational Linear Algebra), OIDD 245 (Analytics & the Digital Economy)
+  
+    
 
 Skills
 ======
@@ -28,11 +32,18 @@ Skills
   
 * **Technical Skills**
   * Python (advanced)
+  
   * Java (advanced)
+  
   * Functional programming in OCaml (basic)
+  
   * Tableau (advanced)
+  
   * LaTeX (advanced)
+  
   * Microsoft Office (advanced)
+  
+    
 
 Professional Experience
 ======
@@ -52,10 +63,13 @@ Professional Experience
   *VTEX*  
   *July 2020 – August 2020* 
   * Devised an overhaul of the customer support experience to increase ticket deflection. Simulations modeled a decrease of 30% in the number of tickets opened while increasing the interactions between users and the company’s Knowledge Base
+  
   * Designed a highly viable and scalable solution (including support website revamping and modifications in the consumer journey) through direct collaboration with a multidisciplinary group of interns and product managers
-
+  
+    
+  
   # Leadership & Other Experience
-
+  
 * **NCAA Division I Fencing Student-Athlete**  
   *September 2019 – Present*
   * Varsity athlete at the University of Pennsylvania Men’s Saber Squad
