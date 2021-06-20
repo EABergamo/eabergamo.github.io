@@ -10,7 +10,7 @@ locale                   : "en-US"
 title                    : "Enzo Bergamo"
 title_separator          : "-"
 name                     : &name "Enzo Bergamo"
-description              : &description "Systems Science & Engineering student @ Penn"
+description              : &description "Systems Science & Engineering Student @ UPenn"
 url                      : https://eabergamo.github.io # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
 repository               : "eabergamo/eabergamo.github.io"
@@ -82,7 +82,7 @@ analytics:
 author:
   name             : "Enzo Bergamo"
   avatar           : "profile.png"
-  bio              : "Systems Science & Engineering student @ UPenn"
+  bio              : "Systems Science & Engineering Student @ UPenn"
   location         : "Philadelphia, PA"
   employer         : "University of Pennsylvania"
   pubmed           : 
