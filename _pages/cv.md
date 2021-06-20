@@ -9,8 +9,11 @@ redirect_from:
 
 {% include base_path %}
 
+A PDF, print-friendly version of my resume can be found [here](www.enzobergamo.com/files/enzo_bergamo-resume.pdf).
+
 Education
 ======
+
 * **Bachelor of Science in Engineering**   
   *University of Pennsylvania*  
   *2019 – 2023*
