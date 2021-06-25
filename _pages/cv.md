@@ -70,9 +70,9 @@ Professional Experience
   * Designed a highly viable and scalable solution (including support website revamping and modifications in the consumer journey) through direct collaboration with a multidisciplinary group of interns and product managers
   
     
-  
-  # Leadership & Other Experience
-  
+
+# Leadership & Other Experience
+
 * **NCAA Division I Fencing Student-Athlete**  
   *September 2019 – Present*
   * Varsity athlete at the University of Pennsylvania Men’s Saber Squad
