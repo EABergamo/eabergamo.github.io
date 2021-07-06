@@ -4,7 +4,7 @@ main:
     url: /cv/
 
   - title: "Portfolio"
-    url: /portfolio/
+    url: /talks/
 
   - title: "Medium"
     url: https://medium.com/@ebergamo  
