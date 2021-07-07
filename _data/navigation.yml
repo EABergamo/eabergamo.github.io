@@ -3,5 +3,8 @@ main:
   - title: "Resume"
     url: /cv/
 
+  - title: "Portfolio"
+    url: /portfolio/
+
   - title: "Medium (external)"
     url: https://medium.com/@ebergamo    
