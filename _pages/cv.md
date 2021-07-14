@@ -16,7 +16,7 @@ Education
 * **Master of Science in Engineering – Systems Science & Engineering**   
   *University of Pennsylvania*  
   *2019 – 2023*
-  * **Accelerated Master's Program:**  B.S.E. + M.S.E. program
+  * **Accelerated Master's Program:**  B.S.E. + M.S.E. accelerated four-year program
 
 * **Bachelor of Science in Engineering – Systems Science & Engineering**   
   *University of Pennsylvania*  
