@@ -19,7 +19,7 @@ Education
 
 * **Bachelor of Science in Engineering – Systems Science & Engineering**   
   *University of Pennsylvania*  
-  *2019 – 2023*
+  *2019 – 2023*  
   * **Minors:** Computer & Information Science, Mathematics
   * **Relevant coursework:** CIS 121 (Data Structures & Algorithms), CIS 120 (Programming Languages & Techniques II), CIS 545 (Big Data Analytics), ESE 400 (Engineering Economics), ESE 204 (Decision Models), MATH 313 (Computational Linear Algebra), OIDD 245 (Analytics & the Digital Economy)
 
@@ -47,7 +47,7 @@ Professional Experience
   * Expanded research on autonomous robot swarms making use of machine learning techniques (reinforcement learning, graph neural networks) with funding by Intel and the Army Research Laboratory
   * Developed extensive simulations of multiple scenarios (communication failure, collision) using Pytorch and in-house software
 
-  * **Program Instructor**  
+* **Program Instructor**  
   *[Redefine](https://redefine-cs.github.io/)*
   *June 2021 – Present*
   * Prepared content and worked as an instructor for the Summer 2021 cohort of Redefine, a summer computer science program for underserved communities with the goal of increasing diversity in the computer science workforce
