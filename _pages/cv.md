@@ -42,7 +42,7 @@ Skills
 
 * **Professional Experience**
 ======
-* **Researcb Assistant**  
+* **Research Assistant**  
   *[The Warren Center for Network & Data Sciences, University of Pennsylvania](https://warrencenter.upenn.edu/)*  
   *June 2021 – Present*
   * Conducts research focused on autonomous robot swarms making use of machine learning techniques (reinforcement learning, graph neural networks) with funding by Intel and the Army Research Laboratory
