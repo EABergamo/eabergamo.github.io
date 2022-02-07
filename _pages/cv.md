@@ -40,7 +40,7 @@ Skills
   * LaTeX (advanced)
   * Microsoft Office (advanced)
 
-* **Professional Experience**
+Professional Experience
 ======
 * **Research Assistant**  
   *[The Warren Center for Network & Data Sciences, University of Pennsylvania](https://warrencenter.upenn.edu/)*  
