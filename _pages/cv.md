@@ -39,12 +39,14 @@ Skills
   * Tableau (advanced)
   * LaTeX (advanced)
   * Microsoft Office (advanced)
-Professional Experience
+
+* **Professional Experience**
 ======
 * **Researcb Assistant**  
-  *[Alelab](https://alelab.seas.upenn.edu/) University of Pennsylvania*  
+  *[The Warren Center for Network & Data Sciences, University of Pennsylvania](https://warrencenter.upenn.edu/)*  
   *June 2021 – Present*
-  * Expanded research on autonomous robot swarms making use of machine learning techniques (reinforcement learning, graph neural networks) with funding by Intel and the Army Research Laboratory
+  * Conducts research focused on autonomous robot swarms making use of machine learning techniques (reinforcement learning, graph neural networks) with funding by Intel and the Army Research Laboratory
+  * Developed and executed three-month research plan in order to produce original research material
   * Developed extensive simulations of multiple scenarios (communication failure, collision) using Pytorch and in-house software
 
 * **Program Instructor**  
