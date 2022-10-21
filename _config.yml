@@ -1,6 +1,6 @@
 # Site settings
-title: "Max Stein"
-description: "CV on GitHub Pages sites."
+title: "Enzo Bergamo"
+description: "Personal website"
 
 # Build settings
 markdown: kramdown
@@ -10,17 +10,17 @@ sass:
 
 # Resume settings
 resume_avatar:                  "false"
-resume_name:                    "Max Stein"
-resume_title:                   "Data Analyst | Data Science Enthusiast"
+resume_name:                    "Enzo Bergamo"
+resume_title:                   "Undergraduate & Graduate Student at the University of Pennsylvania"
 
 # used for the contact button in _layouts/resume.html
-resume_contact_email:           "max.stein.tm@gmail.com"
+resume_contact_email:           "ebergamo"
 
 # the next two items are used for schema itemprops in _layouts/resume.html
-resume_contact_telephone:       "058-489-30-57"
-resume_contact_address:         "Israel, Tel-Aviv"
+resume_contact_telephone:       "936-223-4920"
+resume_contact_address:         "Philadelphia, PA"
 
-resume_header_contact_info:     "Israel, Tel-Aviv District •
+resume_header_contact_info:     "Philadelphia, PA •
                                 (+972)58-489-30-57 •
                                 max.stein.tm@gmail.com"
 display_header_contact_info:    "true"
@@ -35,18 +35,18 @@ and eager for challenges.</p>"
 # "no" to display an "I'm not looking for work" message,
 # or remove the resume_looking_for_work option entirely
 # to leave blank
-resume_looking_for_work:        "yes"
+resume_looking_for_work:        ""
 
 # Decide which sections to use
 # comment out to hide
-resume_section_experience:      true
-resume_section_education:       true
+# resume_section_experience:      false
+# resume_section_education:       false
 # resume_section_projects:        true
-resume_section_skills:          true
+# resume_section_skills:          true
 # resume_section_recognition:     true
 # resume_section_links:           true
-resume_section_accomplishments: true
-resume_section_associations:    true
+# resume_section_accomplishments: true
+# resume_section_associations:    true
 # resume_section_interests:       true
 
 # Resume social links
