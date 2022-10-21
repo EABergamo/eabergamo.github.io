@@ -5,7 +5,7 @@
 
 .section-header {
   @include section_border;
-  margin-bottom: 1.5rem;
+  margin-bottom: 10px;
 
   h2 {
     @include sans;
@@ -24,7 +24,7 @@
     width: 95px;
     max-width: 100%;
     overflow: hidden;
-    @include border-radius(100px);
+    @include border-radius(50px);
     margin: 0 auto;
     display: block;
   }
@@ -49,6 +49,8 @@
 
   .title-bar {
     @include section_border;
+    border-top: 3px solid #c7c7c7;
+    border-bottom: 3px solid #c7c7c7;
     margin-top: 2rem;
     padding: .4rem 0;
     text-align: center;
@@ -80,14 +82,14 @@
   padding: 0;
   list-style: none;
   position: static;
-  top: 8px;
+  top: 4px;
   text-align: center;
   border-top: 8px solid #c7c7c7;
 
   @include media_larger_than_mobile {
     float: center;
     border-top: none;
-    padding-top: 0;
+    padding-top: 5px;
   }
 
   .icon-link-item {
@@ -162,7 +164,7 @@
     a {
       color: #333;
       text-decoration: none;
-      border-bottom: 1px solid;
+      border-bottom: px solid;
 
       &:hover {
         border-bottom: none;
