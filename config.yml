@@ -1,5 +1,5 @@
-baseURL: "https://pascalmichaillat.org/hugo-website/" 
-title: Moritz-Maria von Igelfeld
+baseURL: "https://www.enzobergamo.com" 
+title: Enzo A. Bergamo
 theme: PaperMod
 
 enableInlineShortcodes: true
@@ -10,25 +10,16 @@ taxonomies:
 
 menu:
     main:
-        - name: Books
-          url: books/
-          weight: 5 
-        - name: Papers
-          url: papers/
+        - name: CV
+          url: 2024.12.28 Enzo Bergamo - CV.pdf
           weight: 2
-        - name: Courses
-          url: courses/
+        - name: Teaching
+          url: teaching/
           weight: 3
-        - name: Data
-          url: data/
-          weight: 4 
-        - name: Blog
-          url: https://en.wikipedia.org/wiki/Moritz-Maria_von_Igelfeld_(character)
-          weight: 6
 
 params:
-    description: "I am a Professor of Philology at the Institute of Romance Philology in Regensburg, Germany. My research focuses mostly on Portuguese irregular verbs."
-    author: Moritz-Maria von Igelfeld
+    description: "I am a Ph.D. student in the Operations, Informations and Decisions department at the Wharton School of Business"
+    author: Enzo A. Bergamo
     # googleAnalyticsID: "G-XXXXX"
     DateFormat: "January 2006"
     defaultTheme: light
@@ -52,48 +43,46 @@ params:
     math: true
     profileMode:
           enabled: true
-          title: Professor Dr von Igelfeld
-          subtitle: "I am a Professor in the Institute of Romance Philology at the University of Regensburg, Germany. My research focuses on Portuguese irregular verbs. I was a doctoral student of Professor Dr Dieter Vogelsang in Munich, and later a second assistant of Professor Walter Schoeffler-Henschell at the University of Wiesbaden."
-          imageUrl: "picture.jpeg"
+          title: Enzo A. Bergamo
+          subtitle: "Hello! I am a first-year Ph.D. student in the [<u>Operations, Information & Decisions</u>](https://oid.wharton.upenn.edu) 
+          department at the [<u>Wharton School</u>](https://www.wharton.upenn.edu) of the University of Pennsylvania. 
+          <br>  <br>
+          I have received my  Bachelor's and Master's Degree in Systems Science & Engineering at the [<u>University of 
+          Pennsylvania School of Engineering and Applied Science</u>](https://www.seas.upenn.edu) where I was a 
+          [<u>Penn World Scholar</u>](https://global.upenn.edu/isss/penn-world-scholars).
+          <br>  <br>    
+          My research interests center around the use of machine learning techniques to understand and optimize decision-making in operations management problems."
+          imageUrl: "profile_pic.jpg"
+          imageTitle: Enzo Bergamo
           imageWidth: 160
           imageHeight: 160
           buttons:
-            - name: Papers
-              url: papers/
-            - name: Courses
-              url: courses/
-            - name: Data
-              url: data/
-            - name: Books
-              url: books/
-            - name: Tags
-              url: tags/
-            - name: Archive
-              url: archive/
-            - name: Blog
-              url: https://en.wikipedia.org/wiki/Moritz-Maria_von_Igelfeld_(character)
+            - name: CV
+              url: 2024.12.28 Enzo Bergamo - CV.pdf
+            - name: Teaching
+              url: teaching/
 
-    socialIcons:
-        - name: CV
-          url: cv.pdf
-        - name: Email
-          url: mailto:moritz.maria.von.igelfeld@gmail.com
-        - name: Zoom
-          url: https://www.zoom.us/my/igelfeld
-        - name: Location
-          url: location/
-        - name: Office Hours
-          url: officehours/
-        - name: Google Scholar
-          url: https://scholar.google.com/citations?user=cL23w-4AAAAJ
-        - name: GitHub
-          url: https://github.com/pmichaillat
-        - name: Substack
-          url: https://pmichaillat.substack.com
-        - name: YouTube
-          url: https://www.youtube.com/@alexandermccallsmithoffici9000
-        - name: Twitter
-          url: https://twitter.com/McCallSmith
+    # socialIcons:
+    #     - name: CV
+    #       url: cv.pdf
+    #     - name: Email
+    #       url: mailto:moritz.maria.von.igelfeld@gmail.com
+    #     - name: Zoom
+    #       url: https://www.zoom.us/my/igelfeld
+    #     - name: Location
+    #       url: location/
+    #     - name: Office Hours
+    #       url: officehours/
+    #     - name: Google Scholar
+    #       url: https://scholar.google.com/citations?user=cL23w-4AAAAJ
+    #     - name: GitHub
+    #       url: https://github.com/pmichaillat
+    #     - name: Substack
+    #       url: https://pmichaillat.substack.com
+    #     - name: YouTube
+    #       url: https://www.youtube.com/@alexandermccallsmithoffici9000
+    #     - name: Twitter
+    #       url: https://twitter.com/McCallSmith
 
     assets:
         disableScrollBarStyle: true
@@ -101,9 +90,9 @@ params:
         hiddenInList: false
         hiddenInSingle: true
     label:
-      text: "Moritz-Maria von Igelfeld"
+      text: "Enzo A. Bergamo"
       icon: favicon.ico
-      iconHeight: 18
+      iconHeight: 24
 
 markup:
     goldmark:
