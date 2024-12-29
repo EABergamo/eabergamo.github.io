@@ -22,7 +22,7 @@ I have previously worked as a teaching assistant for the following classes.
 
 ### CIS 1100 - Introduction to Computer Science
 - Semesters: Spring 2021, Fall 2021, Summer 2021, Spring 2022, Fall 2022
-- Instructor: Harry Smith, Travis McGaha
+- Instructors: Harry Smith, Travis McGaha
 - TA quality rating (most recent semester): 3.33/4.00
 - Course website: available [here](https://www.cis.upenn.edu/~cis110/current/)
 
