@@ -14,7 +14,7 @@ menu:
           url: 2024.12.28 Enzo Bergamo - CV.pdf
           weight: 2
         - name: Teaching
-          url: teaching/
+          url: courses/
           weight: 3
 
 params:
@@ -58,9 +58,9 @@ params:
           imageHeight: 160
           buttons:
             - name: CV
-              url: 2024.12.28 Enzo Bergamo - CV.pdf
+              url: cv.pdf
             - name: Teaching
-              url: teaching/
+              url: courses/
 
     # socialIcons:
     #     - name: CV
