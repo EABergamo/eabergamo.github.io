@@ -66,11 +66,11 @@ params:
             - name: Teaching
               url: courses/
 
-    socialIcons:
+    # socialIcons:
     #     - name: CV
     #       url: cv.pdf
-       - name: Email
-         url: mailto:ebergamo@wharton.upenn.edu
+      # - name: Email
+      #   url: mailto:ebergamo@wharton.upenn.edu
     #     - name: Zoom
     #       url: https://www.zoom.us/my/igelfeld
     #     - name: Location
@@ -79,8 +79,8 @@ params:
     #       url: officehours/
     #     - name: Google Scholar
     #       url: https://scholar.google.com/citations?user=cL23w-4AAAAJ
-        - name: GitHub
-          url: https://github.com/eabergamo
+    #    - name: GitHub
+    #      url: https://github.com/eabergamo
     #     - name: Substack
     #       url: https://pmichaillat.substack.com
     #     - name: YouTube
