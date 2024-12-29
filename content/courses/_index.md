@@ -11,7 +11,7 @@ I have previously worked as a teaching assistant for the following classes.
   - Semesters: Spring 2023
   - Instructor: Shirin Saeedi Bidokhti 
   - Most recent TA quality rating: 3.47/4.00, highest since Spring 2010
-  - Lecture notes: available [here](https://www.enzobergamo.com/static/ESE3030_Lecture_Notes.pdf)
+  - Lecture notes: available [here](https://enzobergamo.com/ESE3030_Lecture_Notes.pdf)
 
 ### MATH 3130/5130 - Computational Linear Algebra
 - Semesters: Spring 2021, May 2022

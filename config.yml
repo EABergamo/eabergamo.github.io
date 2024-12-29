@@ -33,6 +33,7 @@ params:
     disableSpecial1stPost: true
     disableAnchoredHeadings: true
     ShowPostNavLinks: false
+    favicon: true
     ShowBreadCrumbs: false
     ShowCodeCopyButtons: true
     ShowAllPagesInArchive: false
