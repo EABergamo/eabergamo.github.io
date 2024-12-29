@@ -83,6 +83,8 @@ params:
           url: https://www.linkedin.com/in/eabergamo
         - name: GitHub
           url: https://github.com/eabergamo
+        - name: ORCID
+          url: 0009-0003-5352-1336
         # - name: Substack
         #   url: https://pmichaillat.substack.com
         # - name: YouTube
