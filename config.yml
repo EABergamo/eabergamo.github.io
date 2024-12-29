@@ -85,8 +85,8 @@ params:
     #       url: https://pmichaillat.substack.com
     #     - name: YouTube
     #       url: https://www.youtube.com/@alexandermccallsmithoffici9000
-        - name: LinkedIn
-          url: https://www.linkedin.com/in/eabergamo
+      #  - name: LinkedIn
+        #  url: https://www.linkedin.com/in/eabergamo
 
     assets:
         disableScrollBarStyle: true
