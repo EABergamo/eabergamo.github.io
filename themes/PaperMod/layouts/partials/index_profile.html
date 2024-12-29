@@ -30,10 +30,11 @@
             height="{{ .imageHeight | default 150 }}" width="{{ .imageWidth | default 150 }}" />
         {{- end }}
         {{- end }}
-        <h1>{{ .title | default site.Title | markdownify }}</h1>
-        <span>{{ .subtitle | markdownify }}</span>
-        {{- partial "social_icons.html" -}}
+        
 
+        <h1>{{ .title | default site.Title | markdownify }}  {{- partial "social_icons.html" -}}</h1>
+        <span>{{ .subtitle | markdownify }}</span>
+        
         {{- with .buttons }}
         <div class="buttons">
             {{- range . }}
