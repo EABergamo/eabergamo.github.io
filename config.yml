@@ -48,7 +48,7 @@ params:
     profileMode:
           enabled: true
           title: Enzo A. Bergamo
-          subtitle: "<strong>Welcome to my website!</strong> I am a first-year Ph.D. student in the [<u>Operations, Information & Decisions</u>](https://oid.wharton.upenn.edu) 
+          subtitle: "<strong>Welcome to my website!</strong> I am a first-year Ph.D. student in the [<u>Operations, Information and Decisions</u>](https://oid.wharton.upenn.edu) 
           department at the [<u>Wharton School</u>](https://www.wharton.upenn.edu) of the University of Pennsylvania. 
           <br>  <br>
           I have received my  Bachelor's and Master's Degree in Systems Science & Engineering at the [<u>University of 
