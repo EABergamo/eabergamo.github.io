@@ -8,7 +8,7 @@ description: "History of coursework where I served as instructor or teaching ass
 I have previously worked as a teaching assistant for the following classes.
 
 ### ESE 3030 – Stochastic System Simulation & Analysis
-  - Semesters: Spring 2023
+  - Semester: Spring 2023
   - Instructor: Shirin Saeedi Bidokhti 
   - TA quality rating: 3.47/4.00, highest since Spring 2010
   - Lecture notes: available [here](https://enzobergamo.com/ESE3030_Lecture_Notes.pdf)
@@ -27,7 +27,7 @@ I have previously worked as a teaching assistant for the following classes.
 - Course website: available [here](https://www.cis.upenn.edu/~cis110/current/)
 
 ### ESE 5140 - Graph Neural Networks
-- Semesters: Fall 2021
+- Semester: Fall 2021
 - Instructor: Alejandro Ribeiro
 - TA quality rating: 3.44/4.00
 - Course website: available [here](https://gnn.seas.upenn.edu)
