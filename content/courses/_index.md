@@ -19,6 +19,11 @@ I have previously worked as a teaching assistant for the following classes.
 - TA quality rating (most recent semester): 3.14/4.00, highest since Spring 2013
 - Lecture notes: available [here](https://martinbies.github.io/teaching/)
 
+### ESE 5140 - Graph Neural Networks
+- Semester: Fall 2021
+- Instructor: Alejandro Ribeiro
+- TA quality rating: 3.44/4.00
+- Course website: available [here](https://gnn.seas.upenn.edu)
 
 ### CIS 1100 - Introduction to Computer Science
 - Semesters: Spring 2021, Fall 2021, Summer 2021, Spring 2022, Fall 2022
@@ -26,8 +31,3 @@ I have previously worked as a teaching assistant for the following classes.
 - TA quality rating (most recent semester): 3.33/4.00
 - Course website: available [here](https://www.cis.upenn.edu/~cis110/current/)
 
-### ESE 5140 - Graph Neural Networks
-- Semester: Fall 2021
-- Instructor: Alejandro Ribeiro
-- TA quality rating: 3.44/4.00
-- Course website: available [here](https://gnn.seas.upenn.edu)
