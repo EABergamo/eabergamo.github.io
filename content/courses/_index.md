@@ -14,7 +14,7 @@ I have previously worked as a teaching assistant for the following classes.
   - Lecture notes: available [here](https://enzobergamo.com/ESE3030_Lecture_Notes.pdf)
 
 ### MATH 3130/5130 - Computational Linear Algebra
-- Semesters: Spring 2021, May 2022
+- Semesters: Spring 2022, Spring 2023
 - Instructors: Harry Smit, Yingdi Qin, Martin Bies
 - TA quality rating (most recent semester): 3.14/4.00, highest since Spring 2013
 - Lecture notes: available [here](https://martinbies.github.io/teaching/)
