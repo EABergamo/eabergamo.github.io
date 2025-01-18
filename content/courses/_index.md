@@ -10,25 +10,25 @@ I have previously worked as a teaching assistant for the following classes.
 ## At the University of Pennsylvania:
 _(Evaluation Scale: 0 to 4; Poor, Fair, Good, Very Good, Excellent)_
 
-### ESE 3030 – Stochastic System Simulation & Analysis
+### ESE 3030 – Stochastic System Simulation & Analysis (Department of Electrical & Systems Engineering)
   - Semester: Spring 2023
   - Instructor: Shirin Saeedi Bidokhti 
   - TA quality evaluation:: 3.47/4.00, highest since Spring 2010
   - Lecture notes: available [here](https://enzobergamo.com/ESE3030_Lecture_Notes.pdf)
 
-### MATH 3130/5130 - Computational Linear Algebra
+### MATH 3130/5130 - Computational Linear Algebra (Department of Mathematics)
 - Semesters: Spring 2022, Spring 2023
 - Instructors: Harry Smit, Yingdi Qin, Martin Bies
 - TA quality evaluation: (most recent semester): 3.14/4.00, highest since Spring 2013
 - Lecture notes: available [here](https://martinbies.github.io/teaching/)
 
-### ESE 5140 - Graph Neural Networks
+### ESE 5140 - Graph Neural Networks (Department of Electrical & Systems Engineering)
 - Semester: Fall 2021
 - Instructor: Alejandro Ribeiro
 - TA quality evaluation:: 3.44/4.00
 - Course website: available [here](https://gnn.seas.upenn.edu)
 
-### CIS 1100 - Introduction to Computer Science
+### CIS 1100 - Introduction to Computer Science (Department of Computer and Information Science)
 - Semesters: Spring 2021, Fall 2021, Summer 2021, Spring 2022, Fall 2022
 - Instructors: Harry Smith, Travis McGaha
 - TA quality evaluation: (most recent semester): 3.33/4.00
