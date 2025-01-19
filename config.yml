@@ -22,7 +22,7 @@ menu:
 
 params:
     description: "Welcome to my website! I am a Ph.D. student in the Operations, Informations and Decisions department at the Wharton School of Business"
-    author: Enzo Bergamo
+    author: Enzo A. Bergamo
     googleAnalyticsID: "G-K19E1W4Z12"
     DateFormat: "January 2006"
     defaultTheme: light
@@ -47,7 +47,7 @@ params:
     math: true
     profileMode:
           enabled: true
-          title: Enzo Bergamo
+          title: Enzo A. Bergamo
           subtitle: "<strong>Welcome to my website!</strong> I am a first-year Ph.D. student in the [<u>Operations, Information and Decisions</u>](https://oid.wharton.upenn.edu) 
           department at the [<u>Wharton School</u>](https://www.wharton.upenn.edu) of the University of Pennsylvania. 
           <br>  <br>
