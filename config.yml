@@ -98,7 +98,7 @@ params:
         hiddenInList: false
         hiddenInSingle: true
     label:
-      text: "Enzo Bergamo"
+      text: "Enzo A. Bergamo"
       icon: favicon.ico
       iconHeight: 24
 
