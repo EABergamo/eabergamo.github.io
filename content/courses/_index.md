@@ -19,7 +19,7 @@ _(Evaluation Scale: 0 to 4; Poor, Fair, Good, Very Good, Excellent)_
 ### MATH 3130/5130 - Computational Linear Algebra
 - Semesters: Spring 2022, Spring 2023
 - Instructors: Harry Smit, Yingdi Qin, Martin Bies (Department of Mathematics)
-- TA quality evaluation: (most recent semester): 3.14/4.00, highest since Spring 2013
+- TA quality evaluation (most recent semester): 3.14/4.00, highest since Spring 2013
 - Lecture notes: available [here](https://martinbies.github.io/teaching/)
 
 ### ESE 5140 - Graph Neural Networks
@@ -30,7 +30,7 @@ _(Evaluation Scale: 0 to 4; Poor, Fair, Good, Very Good, Excellent)_
 
 ### CIS 1100 - Introduction to Computer Science
 - Semesters: Spring 2021, Fall 2021, Summer 2021, Spring 2022, Fall 2022
-- Instructors: Harry Smith, Travis McGaha (Department of Computer and Information Science)
-- TA quality evaluation: (most recent semester): 3.33/4.00
+- Instructors: Harry Smith, Travis McGaha, Eric Fouh, Adam Mally (Department of Computer and Information Science)
+- TA quality evaluation (most recent semester): 3.33/4.00
 - Course website: available [here](https://www.cis.upenn.edu/~cis110/current/)
 
