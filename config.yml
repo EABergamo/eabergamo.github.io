@@ -1,5 +1,5 @@
 baseURL: "https://www.enzobergamo.com" 
-title: Enzo Bergamo
+title: Enzo A. Bergamo
 theme: PaperMod
 
 enableInlineShortcodes: true
@@ -22,7 +22,7 @@ menu:
 
 params:
     description: "Welcome to my website! I am a Ph.D. student in the Operations, Informations and Decisions department at the Wharton School of Business"
-    author: Enzo Bergamo
+    author: Enzo A. Bergamo
     googleAnalyticsID: "G-K19E1W4Z12"
     DateFormat: "January 2006"
     defaultTheme: light
@@ -47,15 +47,17 @@ params:
     math: true
     profileMode:
           enabled: true
-          title: Enzo Bergamo
+          title: Enzo A. Bergamo
           subtitle: "<strong>Welcome to my website!</strong> I am a first-year Ph.D. student in the [<u>Operations, Information and Decisions</u>](https://oid.wharton.upenn.edu) 
           department at the [<u>Wharton School</u>](https://www.wharton.upenn.edu) of the University of Pennsylvania. 
           <br>  <br>
-          I have received my  Bachelor's and Master's Degree in Systems Science at the [<u>University of 
+          I have received my  Bachelor's and Master's Degree in Systems Engineering at the [<u>University of 
           Pennsylvania School of Engineering and Applied Science</u>](https://www.seas.upenn.edu) where I was a 
           [<u>Penn World Scholar</u>](https://global.upenn.edu/isss/penn-world-scholars).
           <br>  <br>    
-          My research interests center around the use of machine learning techniques to understand and optimize decision-making in operations management problems."
+          My research interests center around the use of machine learning techniques and other data-driven approaches to optimize decision-making in operations management problems. Feel free to reach out 
+          at ebergamo [at] wharton [dot] upenn [dot] edu.
+          "
           imageUrl: "profile_pic.jpg"
           imageTitle: Enzo Bergamo
           imageWidth: 160
@@ -98,7 +100,7 @@ params:
         hiddenInList: false
         hiddenInSingle: true
     label:
-      text: "Enzo Bergamo"
+      text: "Enzo A. Bergamo"
       icon: favicon.ico
       iconHeight: 24
 
