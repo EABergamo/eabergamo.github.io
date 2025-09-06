@@ -5,29 +5,14 @@ description: "History of coursework where I served as instructor or teaching ass
 
 # Teaching
 
-
-I have previously worked as an instructor for the following classes.
-
-## At the Wharton School (while a Ph.D. student):
-_(Evaluation Scale: 0 to 4; Poor, Fair, Good, Very Good, Excellent)_
-
-### Wharton Ph.D. Summer Math Camp
-  - Semester: Summer 2025
-  - Instructor quality evaluations: N/A
-
-I have previously worked as a teaching assistant for the following classes.
-
-## At the Wharton School (while a Ph.D. student):
-_(Evaluation Scale: 0 to 4; Poor, Fair, Good, Very Good, Excellent)_
-
 ### OIDD 6110 –  Quality and Productivity (MBA Core, Executive MBA Core)
   - Semester: Fall 2025, Spring 2026
-  - Instructor: Christian Terwiesch, Santiago Gallino (Operations, Information and Decisions Department)
+  - Instructors: Christian Terwiesch, Santiago Gallino (Operations, Information and Decisions Department)
   - TA quality evaluation: N/A
 
-
-## At the University of Pennsylvania (while an undergraduate/master's student):
-_(Evaluation Scale: 0 to 4; Poor, Fair, Good, Very Good, Excellent)_
+  ### Wharton Ph.D. Summer Math Camp (Instructor)
+  - Semester: Summer 2025
+  - Instructor quality evaluations: N/A
 
 ### ESE 3030 – Stochastic System Simulation & Analysis
   - Semester: Spring 2023
