@@ -49,14 +49,14 @@ params:
           enabled: true
           title: Enzo A. Bergamo
           subtitle: "<strong>Welcome to my website!</strong> I am a Ph.D. candidate in the [<u>Operations, Information and Decisions</u>](https://oid.wharton.upenn.edu) 
-          department at the [<u>Wharton School</u>](https://www.wharton.upenn.edu) of the University of Pennsylvania. 
+          department at the [<u>Wharton School</u>](https://www.wharton.upenn.edu) of the University of Pennsylvania.  
+          My research interests center around the use of machine learning techniques and other novel data-driven approaches to understand and optimize decision-making in operations management problems.
           <br>  <br>
-          I have received my  Bachelor's and Master's Degree in Systems Engineering at the [<u>University of 
+ 
+          Previously, I received my  Bachelor's and Master's Degree in Systems Engineering at the [<u>University of 
           Pennsylvania School of Engineering and Applied Science</u>](https://www.seas.upenn.edu) where I was a 
           [<u>Penn World Scholar</u>](https://global.upenn.edu/isss/penn-world-scholars).
           <br>  <br>    
-          My research interests center around the use of machine learning techniques and other data-driven approaches to optimize decision-making in operations management problems. Feel free to reach out 
-          at ebergamo [at] wharton [dot] upenn [dot] edu.
           "
           imageUrl: "profile_pic.jpg"
           imageTitle: Enzo Bergamo
