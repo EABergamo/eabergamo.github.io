@@ -60,8 +60,8 @@ params:
           "
           imageUrl: "profile_pic.jpg"
           imageTitle: Enzo Bergamo
-          imageWidth: 130
-          imageHeight: 130
+          imageWidth: 160
+          imageHeight: 160
           buttons:
             - name: CV
               url: Enzo Bergamo - CV.pdf
