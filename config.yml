@@ -101,8 +101,8 @@ params:
         hiddenInSingle: true
     label:
       text: "Enzo A. Bergamo"
-      icon: favicon.ico
-      iconHeight: 24
+      # icon: favicon.ico
+      # iconHeight: 24
 
 markup:
     goldmark:
