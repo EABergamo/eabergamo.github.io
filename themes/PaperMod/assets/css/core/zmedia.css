@@ -50,13 +50,12 @@
         overflow-x: hidden;
     }
 
-    /* Adjust spacing slightly */
     .header, .footer {
-        padding: 9px;
+        padding: 10px;
     }
 
     .content {
-        padding: 9px;
+        padding: 10px;
         font-size: 14px;
     }
 
