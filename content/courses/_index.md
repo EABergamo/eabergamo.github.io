@@ -4,7 +4,7 @@ description: "History of coursework where I served as instructor or teaching ass
 ---
 
 # Teaching
-_(Evaluation Scale, when available: 0 to 4; Poor, Fair, Good, Very Good, Excellent)_
+_(Evaluation scale, when available: 0 to 4; Poor, Fair, Good, Very Good, Excellent)_
 
 ### OIDD 6110 –  Quality and Productivity (MBA Core, Executive MBA Core)
   - Semester: Fall 2025, Spring 2026
