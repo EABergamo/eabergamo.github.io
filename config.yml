@@ -21,12 +21,12 @@ menu:
           weight: 3
 
 params:
-    description: "Welcome to my website! I am a Ph.D. student in the Operations, Informations and Decisions department at the Wharton School of Business"
+    description: "Welcome to my website! I am a Ph.D. student in the Operations, Informations and Decisions department at The Wharton School."
     author: Enzo A. Bergamo
     googleAnalyticsID: "G-K19E1W4Z12"
     DateFormat: "January 2006"
     defaultTheme: light
-    hideFooter: false
+    hideFooter: true
     disableThemeToggle: true
     ShowShareButtons: false
     ShowReadingTime: false
