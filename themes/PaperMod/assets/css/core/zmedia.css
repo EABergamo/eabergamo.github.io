@@ -63,16 +63,6 @@
         max-width: 100%;
         height: auto;
     }
-
-    /* Reduce padding between buttons and copyright at the bottom */
-    .footer {
-        padding: 5px 10px;
-    }
-
-    /* Reduce padding between the top and the picture */
-    .header img {
-        margin-top: 5px;
-    }
 }
 
 @media (prefers-reduced-motion) {
