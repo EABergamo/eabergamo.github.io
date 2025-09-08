@@ -52,16 +52,16 @@
 
     /* Adjust spacing slightly */
     .header, .footer {
-        padding: 8px;
+        padding: 10px;
     }
 
     .content {
-        padding: 8px;
+        padding: 10px;
         font-size: 14px;
     }
 
     img {
-        max-width: 100%;
+        max-width: 90%;
         height: auto;
     }
 }
