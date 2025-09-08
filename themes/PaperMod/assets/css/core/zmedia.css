@@ -6,7 +6,7 @@
 
     /* profile-mode */
     .profile img {
-        transform: scale(0.85);
+        transform: scale(0.8);
     }
 
     /* post-entry */
@@ -61,7 +61,7 @@
     }
 
     img {
-        max-width: 90%;
+        max-width: 85%;
         height: auto;
     }
 }
