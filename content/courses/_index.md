@@ -6,7 +6,7 @@ description: "History of coursework where I served as instructor or teaching ass
 # Teaching
 _(Evaluation scale, when available: 0 to 4; Poor, Fair, Good, Very Good, Excellent)_
 
-### OIDD 6110 –  Quality and Productivity (MBA Core, Executive MBA Core)
+### OIDD 6110 –  Quality and Productivity (MBA Core)
   - Semester: Fall 2025, Spring 2026
   - Instructors: Christian Terwiesch, Santiago Gallino (Operations, Information and Decisions Department)
   - TA quality evaluation: N/A
