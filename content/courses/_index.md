@@ -23,11 +23,14 @@ _(Evaluation scale, when available: 0 to 4; Poor, Fair, Good, Very Good, Excelle
   - TA quality evaluation: 3.47/4.00, highest since Spring 2010
   - Lecture notes: available [here](https://enzobergamo.com/ESE3030_Lecture_Notes.pdf)
 
+<!--
+
 ### MATH 3130/5130 - Computational Linear Algebra
 - Semesters: Spring 2022, Spring 2023
 - Instructors: Harry Smit, Yingdi Qin, Martin Bies (Department of Mathematics)
 - TA quality evaluation (most recent semester): 3.14/4.00, highest since Spring 2013
 - Lecture notes: available [here](https://martinbies.github.io/teaching/)
+-->
 
 ### ESE 5140 - Graph Neural Networks
 - Semester: Fall 2021
