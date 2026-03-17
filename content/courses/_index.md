@@ -6,6 +6,7 @@ description: "History of coursework where I served as instructor or teaching ass
 # Teaching
 _(Evaluation scale, when available: 0 to 4; Poor, Fair, Good, Very Good, Excellent)_
 
+## At the Wharton School of the University of Pennsylvania
 ### OIDD 6110 –  Quality and Productivity (MBA Core)
   - Semester: Fall 2025, Spring 2026
   - Instructors: Christian Terwiesch, Santiago Gallino (Operations, Information and Decisions Department)
@@ -15,6 +16,7 @@ _(Evaluation scale, when available: 0 to 4; Poor, Fair, Good, Very Good, Excelle
   - Semester: Summer 2025
   - Instructor quality evaluations: N/A
 
+## At the University of Pennsylvania School of Engineering and Applied Science
 ### ESE 3030 – Stochastic System Simulation & Analysis
   - Semester: Spring 2023
   - Instructor: Shirin Saeedi Bidokhti (Department of Electrical & Systems Engineering)
