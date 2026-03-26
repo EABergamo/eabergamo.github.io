@@ -17,7 +17,7 @@ _(Evaluation scale, when available: 0 to 4; Poor, Fair, Good, Very Good, Excelle
   - Instructor quality evaluations: N/A
 
 ## At the University of Pennsylvania School of Engineering and Applied Science
-### ESE 3030 – Stochastic System Simulation & Analysis
+### ESE 3030 – Stochastic System Analysis and Simulation
   - Semester: Spring 2023
   - Instructor: Shirin Saeedi Bidokhti (Department of Electrical & Systems Engineering)
   - TA quality evaluation: 3.47/4.00, highest since Spring 2010
