@@ -4,19 +4,16 @@ description: "History of coursework where I served as instructor or teaching ass
 ---
 
 # Teaching
-_(Evaluation scale, when available: 0 to 4; Poor, Fair, Good, Very Good, Excellent)_
-
 ## At the Wharton School of the University of Pennsylvania
 ### OIDD 6110 –  Quality and Productivity (MBA Core)
-  - Semester: Fall 2025, Spring 2026
+  - Semester: Fall 2025 (MBA, WEMBA Global, WEMBA East), Spring 2026 (WEMBA West)
   - Instructors: Christian Terwiesch, Santiago Gallino (Operations, Information and Decisions Department)
-  - TA quality evaluation: N/A
 
   ### Wharton Ph.D. Summer Math Camp (Instructor)
   - Semester: Summer 2025
-  - Instructor quality evaluations: N/A
 
 ## At the University of Pennsylvania School of Engineering and Applied Science
+_(Evaluation scale: 0 to 4; Poor, Fair, Good, Very Good, Excellent)_
 ### ESE 3030 – Stochastic System Analysis and Simulation
   - Semester: Spring 2023
   - Instructor: Shirin Saeedi Bidokhti (Department of Electrical & Systems Engineering)
