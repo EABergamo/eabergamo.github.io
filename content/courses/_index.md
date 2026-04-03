@@ -32,7 +32,7 @@ _(Evaluation scale: 0 to 4; Poor, Fair, Good, Very Good, Excellent)_
 ### ESE 5140 - Graph Neural Networks
 - Semester: Fall 2021
 - Instructor: Alejandro Ribeiro (Department of Electrical & Systems Engineering)
-- TA quality evaluation: 3.44/4.00
+- TA quality evaluation: 3.44/4.00, highest ever
 - Course website: available [here](https://gnn.seas.upenn.edu)
 
 ### CIS 1100 - Introduction to Computer Science
