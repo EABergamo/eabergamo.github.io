@@ -32,9 +32,6 @@ _(Evaluation scale: 0 to 4; Poor, Fair, Good, Very Good, Excellent)_
 - TA quality evaluation (most recent semester): 3.33/4.00
 - Course website: available [here](https://www.cis.upenn.edu/~cis110/current/)
 
-## At the University of Pennsylvania School School of Arts & Sciences
-_(Evaluation scale: 0 to 4; Poor, Fair, Good, Very Good, Excellent)_
-
 ### MATH 3130/5130 - Computational Linear Algebra
 - Semesters: Spring 2022, Spring 2023
 - Instructors: Harry Smit, Yingdi Qin, Martin Bies (Department of Mathematics)
