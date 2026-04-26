@@ -6,7 +6,7 @@ description: "History of coursework where I served as instructor or teaching ass
 # Teaching
 ## At the Wharton School of the University of Pennsylvania
 ### OIDD 6110 –  Quality and Productivity (MBA Core)
-  - Semester: Fall 2025 (Christian Terwiesch, Santiago Gallino); Spring 2026 (Christian Terwiesch)
+  - Semesters: Fall 2025 (Christian Terwiesch, Santiago Gallino); Spring 2026 (Christian Terwiesch)
 
   ### Wharton Ph.D. Summer Math Camp (Instructor)
   - Semester: Summer 2025
