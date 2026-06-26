@@ -2,7 +2,6 @@
 title: "Research"
 description: "Research by Enzo A. Bergamo"
 ---
-# Research
 ***
 ## Working Papers:
 ### Queues Carry Cues: How Visual Congestion Shapes Join-or-Balk Decisions

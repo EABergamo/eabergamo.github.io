@@ -15,6 +15,12 @@
 </header>
 {{- end }}
 
+{{- if (and .IsSection .Title) }}
+<header class="post-header">
+  <h1 class="post-title">{{ .Title }}</h1>
+</header>
+{{- end }}
+
 {{- if .Content }}
 <div class="post-content">
   {{- if not (.Param "disableAnchoredHeadings") }}

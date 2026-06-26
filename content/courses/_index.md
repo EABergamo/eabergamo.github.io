@@ -3,7 +3,6 @@ title: "Teaching"
 description: "History of coursework where I served as instructor or teaching assistant"
 ---
 
-# Teaching
 ***
 ## At the Wharton School of the University of Pennsylvania
 ### OIDD 6110 –  Quality and Productivity (MBA Core)
