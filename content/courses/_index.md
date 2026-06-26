@@ -8,7 +8,7 @@ description: "History of coursework where I served as instructor or teaching ass
 ### Teaching Assistant, Quality and Productivity (OIDD 6110, MBA Core)
   - Semesters: Fall 2025 (Christian Terwiesch, Santiago Gallino); Spring 2026 (Christian Terwiesch)
 
-### Instructor — Wharton Ph.D. Summer Math Camp
+### Instructor, Wharton Ph.D. Summer Math Camp
   - Semesters: Summer 2025, Summer 2026
 ***
 
