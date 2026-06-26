@@ -14,11 +14,14 @@ menu:
           url: /
           weight: 1
         - name: CV
-          url: Enzo Bergamo - CV.pdf
+          url: cv/
           weight: 2
+        - name: Research
+          url: research/
+          weight: 3
         - name: Teaching
           url: courses/
-          weight: 3
+          weight: 4
 
 params:
     description: "Welcome to my website! I am a Ph.D. candidate in the Operations, Informations and Decisions department at The Wharton School."
@@ -63,9 +66,11 @@ params:
           imageHeight: 160
           buttons:
             - name: CV
-              url: Enzo Bergamo - CV.pdf
+              url: cv
+            - name: Research
+              url: research
             - name: Teaching
-              url: courses/
+              url: courses
 
     socialIcons:
         # - name: CV

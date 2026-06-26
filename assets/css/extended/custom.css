@@ -1,0 +1,14 @@
+/* Tighter spacing for the Research listing:
+   shrink the gap after each paper title (h3) and after the author line. */
+.section-research .post-content h3 {
+    margin-bottom: 4px;
+}
+
+.section-research .post-content h3 + p {
+    margin-bottom: 6px;
+}
+
+/* Match the CV page background to the list/home pages (light gray). */
+.page-cv {
+    background: var(--code-bg);
+}

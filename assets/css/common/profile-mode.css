@@ -31,15 +31,16 @@
 }
 
 .button {
-    background: var(--tertiary);
+    background: var(--theme);
+    border: 1px solid var(--tertiary);
     border-radius: var(--radius);
     margin: 8px 16px 8px 0px;
-    padding: 6px;
+    padding: 8px;
     transition: transform 0.1s;
 }
 
 .button-inner {
-    padding: 0 8px;
+    padding: 0 10px;
 }
 
 .button:hover {

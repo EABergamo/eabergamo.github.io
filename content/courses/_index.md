@@ -4,12 +4,14 @@ description: "History of coursework where I served as instructor or teaching ass
 ---
 
 # Teaching
+***
 ## At the Wharton School of the University of Pennsylvania
 ### OIDD 6110 –  Quality and Productivity (MBA Core)
   - Semesters: Fall 2025 (Christian Terwiesch, Santiago Gallino); Spring 2026 (Christian Terwiesch)
 
   ### Wharton Ph.D. Summer Math Camp (Instructor)
-  - Semester: Summer 2025
+  - Semester: Summer 2025, Summer 2026
+***
 
 ## At the University of Pennsylvania School of Engineering and Applied Science
 _(Evaluation scale: 0 to 4; Poor, Fair, Good, Very Good, Excellent)_
@@ -32,4 +34,4 @@ _(Evaluation scale: 0 to 4; Poor, Fair, Good, Very Good, Excellent)_
 - Semesters: Spring 2022 (Martin Bies); Spring 2023 (Harry Smit, Yingdi Qin)
 - TA quality evaluation (most recent semester): 3.14/4.00, highest since Spring 2013
 - Lecture notes: available [here](https://martinbies.github.io/teaching/)
-
+***
