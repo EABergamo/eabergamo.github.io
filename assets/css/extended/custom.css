@@ -12,3 +12,18 @@
 .page-cv {
     background: var(--code-bg);
 }
+
+/* Mobile: more breathing room on the sides and slightly smaller type. */
+@media screen and (max-width: 600px) {
+    :root {
+        --textsize: 16px;
+        --h1size: 22px;
+        --homesize: 15px;
+        --entrysize: 14px;
+    }
+
+    .main {
+        padding-left: 22px;
+        padding-right: 22px;
+    }
+}

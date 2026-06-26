@@ -24,7 +24,7 @@
 
 .logo a {
     font-size: var(--headersize);
-    font-weight: var(--semibold);
+    font-weight: 600;
 }
 
 .logo a img, .logo a svg {
@@ -59,6 +59,55 @@ body:not(.dark) #sun {
 
 #menu li + li {
     margin-inline-start: var(--gap);
+}
+
+/* Hamburger toggle: hidden by default, shown only on narrow screens */
+.menu-toggle {
+    display: none;
+    cursor: pointer;
+    margin: auto var(--gap);
+    padding: 4px;
+    color: var(--primary);
+}
+
+@media screen and (max-width: 600px) {
+    .menu-toggle {
+        display: flex;
+        align-items: center;
+    }
+
+    /* Collapse the menu into a full-width dropdown, hidden until toggled */
+    #menu {
+        display: none;
+        flex-basis: 100%;
+        flex-direction: column;
+        align-items: stretch;
+        margin: 4px var(--gap) 0;
+        padding: 0;
+        line-height: normal;
+        border-top: 1px solid rgb(226, 226, 226);
+        border-bottom: 1px solid rgb(226, 226, 226);
+        overflow-x: visible;
+        white-space: normal;
+    }
+
+    .menu-toggle-cb:checked ~ #menu {
+        display: flex;
+    }
+
+    #menu li {
+        width: 100%;
+    }
+
+    #menu li + li {
+        margin-inline-start: 0;
+        border-top: 1px solid rgb(226, 226, 226);
+    }
+
+    #menu a {
+        display: block;
+        padding: 10px 0;
+    }
 }
 
 #menu a {
