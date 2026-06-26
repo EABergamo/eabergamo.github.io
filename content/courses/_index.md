@@ -5,7 +5,7 @@ description: "History of coursework where I served as instructor or teaching ass
 
 ***
 ## At the Wharton School of the University of Pennsylvania
-### Teaching Assistant, Quality and Productivity – MBA Core (OIDD 6110)
+### Teaching Assistant, Quality and Productivity (OIDD 6111, MBA Core)
   - Semesters: Fall 2025 (Christian Terwiesch, Santiago Gallino); Spring 2026 (Christian Terwiesch)
 
 ### Instructor — Wharton Ph.D. Summer Math Camp
