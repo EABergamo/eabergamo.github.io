@@ -1,4 +1,12 @@
 _site/
 
+# macOS
 .DS_Store
-.DS_Store
+
+# R session files
+.Rhistory
+.RData
+.Rapp.history
+
+# Hugo build lock / cache
+.hugo_build.lock
