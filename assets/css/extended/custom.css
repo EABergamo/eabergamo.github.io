@@ -8,6 +8,64 @@
     margin-bottom: 6px;
 }
 
+/* Expandable papers on the Research page: collapsed by default, the title +
+   authors stay visible and a click reveals the abstract (native <details>). */
+.section-research .post-content details.paper {
+    border: 1px solid var(--border);
+    border-radius: 6px;
+    padding: 10px 16px;
+    margin-bottom: 14px;
+    background: var(--entry);
+}
+
+.section-research .post-content details.paper > summary {
+    list-style: none;            /* hide default triangle (most browsers) */
+    cursor: pointer;
+    position: relative;
+    padding-right: 24px;         /* room for the +/- indicator */
+}
+
+.section-research .post-content details.paper > summary::-webkit-details-marker {
+    display: none;               /* hide default triangle (Safari/Chrome) */
+}
+
+/* Custom expand/collapse indicator on the right. */
+.section-research .post-content details.paper > summary::after {
+    content: "+";
+    position: absolute;
+    right: 0;
+    top: 0;
+    font-size: 20px;
+    line-height: 1;
+    color: var(--secondary);
+    transition: transform 0.2s ease;
+}
+
+.section-research .post-content details.paper[open] > summary::after {
+    content: "\2212";            /* minus sign */
+}
+
+.section-research .post-content details.paper .paper-title {
+    display: block;
+    font-weight: 700;
+    font-size: var(--textsize);
+}
+
+.section-research .post-content details.paper .paper-authors {
+    display: block;
+    font-style: italic;
+    color: var(--secondary);
+    margin-top: 2px;
+}
+
+.section-research .post-content details.paper .paper-abstract {
+    margin-top: 10px;
+}
+
+.section-research .post-content details.paper .paper-abstract p {
+    margin: 0;
+}
+
 /* Match the CV page background to the list/home pages (light gray). */
 .page-cv {
     background: var(--code-bg);
