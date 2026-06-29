@@ -12,9 +12,9 @@
    authors stay visible and a click reveals the abstract (native <details>). */
 .section-research .post-content details.paper {
     border: 1px solid var(--border);
-    border-radius: 6px;
-    padding: 10px 16px;
-    margin-bottom: 14px;
+    border-radius: 8px;
+    padding: 18px 22px;
+    margin-bottom: 20px;
     background: var(--entry);
 }
 
@@ -22,7 +22,7 @@
     list-style: none;            /* hide default triangle (most browsers) */
     cursor: pointer;
     position: relative;
-    padding-right: 24px;         /* room for the +/- indicator */
+    padding-right: 28px;         /* room for the +/- indicator */
 }
 
 .section-research .post-content details.paper > summary::-webkit-details-marker {
@@ -49,21 +49,25 @@
     display: block;
     font-weight: 700;
     font-size: var(--textsize);
+    line-height: 1.4;
 }
 
 .section-research .post-content details.paper .paper-authors {
     display: block;
     font-style: italic;
     color: var(--secondary);
-    margin-top: 2px;
+    margin-top: 6px;
 }
 
 .section-research .post-content details.paper .paper-abstract {
-    margin-top: 10px;
+    margin-top: 16px;
+    padding-top: 16px;
+    border-top: 1px solid var(--border);
 }
 
 .section-research .post-content details.paper .paper-abstract p {
     margin: 0;
+    line-height: 1.7;
 }
 
 /* Match the CV page background to the list/home pages (light gray). */
