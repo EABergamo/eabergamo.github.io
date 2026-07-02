@@ -30,6 +30,16 @@
     background: var(--code-bg);
 }
 
+/* Tighter spacing/padding for the homepage nav buttons (CV, Research, Talks, Teaching). */
+.button {
+    margin: 5px;
+    padding: 4px;
+}
+
+.button-inner {
+    padding: 0 6px;
+}
+
 /* Mobile: more breathing room on the sides and slightly smaller type. */
 @media screen and (max-width: 600px) {
     :root {
@@ -42,5 +52,20 @@
     .main {
         padding-left: 22px;
         padding-right: 22px;
+    }
+
+    /* Keep the homepage buttons on a single row on narrow phone screens. */
+    .buttons {
+        max-width: 100%;
+    }
+
+    .button {
+        margin: 3px;
+        padding: 3px;
+    }
+
+    .button-inner {
+        padding: 0 5px;
+        font-size: 14px;
     }
 }
