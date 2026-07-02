@@ -30,9 +30,10 @@
     background: var(--code-bg);
 }
 
-/* Tighter spacing/padding for the homepage nav buttons (CV, Research, Talks, Teaching). */
+/* Tighter spacing/padding for the homepage nav buttons (CV, Research, Talks, Teaching).
+   Left margin stays 0 so the button row stays flush with the text above it. */
 .button {
-    margin: 7px;
+    margin: 7px 14px 7px 0px;
     padding: 6px;
 }
 
@@ -60,7 +61,7 @@
     }
 
     .button {
-        margin: 5px;
+        margin: 5px 10px 5px 0px;
         padding: 5px;
     }
 
