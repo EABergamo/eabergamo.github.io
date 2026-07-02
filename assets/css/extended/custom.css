@@ -32,12 +32,12 @@
 
 /* Tighter spacing/padding for the homepage nav buttons (CV, Research, Talks, Teaching). */
 .button {
-    margin: 5px;
-    padding: 4px;
+    margin: 6px;
+    padding: 5px;
 }
 
 .button-inner {
-    padding: 0 6px;
+    padding: 0 7px;
 }
 
 /* Mobile: more breathing room on the sides and slightly smaller type. */
@@ -60,12 +60,11 @@
     }
 
     .button {
-        margin: 3px;
-        padding: 3px;
+        margin: 4px;
+        padding: 4px;
     }
 
     .button-inner {
-        padding: 0 5px;
-        font-size: 14px;
+        padding: 0 6px;
     }
 }
