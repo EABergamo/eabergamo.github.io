@@ -10,7 +10,6 @@
 
 /* Style paper links (e.g. [SSRN]) as a muted badge next to the author line. */
 .section-research .post-content .paper-link {
-    font-size: 14px;
     font-weight: normal;
     color: var(--secondary);
     box-shadow: 0 1px 0;
