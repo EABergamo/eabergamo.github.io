@@ -8,23 +8,7 @@
     margin-bottom: 6px;
 }
 
-/* Talks listing: the whole block is centered on the page, while the year
-   heading (same size as a paper title) and rows inside it stay left-aligned. */
-.section-talks .post-content .talks-wrap {
-    text-align: center;
-}
-
-.section-talks .post-content .talks-group {
-    display: inline-block;
-    text-align: left;
-}
-
-.section-talks .post-content .talks-year {
-    font-size: 24px;
-    font-weight: bold;
-    margin-bottom: 10px;
-}
-
+/* Talks listing: date on the left, conference on the right. */
 .section-talks .post-content .talks-list {
     display: flex;
     flex-direction: column;
