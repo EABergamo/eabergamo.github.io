@@ -8,16 +8,8 @@
     margin-bottom: 4px;
 }
 
-/* Style paper links (e.g. [SSRN]) as a muted badge next to the author line. */
-.section-research .post-content .paper-link {
-    font-weight: normal;
-    color: var(--secondary);
-    box-shadow: 0 1px 0;
-    margin-left: 6px;
-}
-
-.section-research .post-content .paper-link:hover {
-    color: var(--primary);
+.section-research .post-content h3 + p + p {
+    margin-bottom: 6px;
 }
 
 /* Match the CV page background to the list/home pages (light gray). */
