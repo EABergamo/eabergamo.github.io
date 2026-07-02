@@ -8,7 +8,19 @@
     margin-bottom: 6px;
 }
 
-/* Talks listing: date on the left, conference on the right. */
+/* Talks listing: year heading above, specific day (gray) on the left,
+   conference on the right, whole block centered on the page. */
+.section-talks .post-content .talks-group {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.section-talks .post-content .talks-year {
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
 .section-talks .post-content .talks-list {
     display: flex;
     flex-direction: column;
@@ -17,12 +29,13 @@
 
 .section-talks .post-content .talks-row {
     display: grid;
-    grid-template-columns: 100px 1fr;
+    grid-template-columns: 60px 1fr;
     gap: 16px;
 }
 
 .section-talks .post-content .talks-date {
     color: var(--secondary);
+    text-align: right;
 }
 
 /* Match the CV page background to the list/home pages (light gray). */
