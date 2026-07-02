@@ -5,9 +5,5 @@ description: "Research by Enzo A. Bergamo"
 ***
 ## Working Papers:
 ### Queues Carry Cues: How Visual Congestion Shapes Join-or-Balk Decisions
-*Enzo A. Bergamo, Gad Allon, and Ken Moon*
-
-<p class="paper-link"><a href="https://papers.ssrn.com/sol3/papers.cfm?abstract_id=7039040" target="_blank">[SSRN]</a></p>
-
-Using computer vision applied to video data from a sports stadium concession queue, this study shows that customers infer congestion from visual cues rather than queue length alone when making join-or-balk decisions. A regression discontinuity design provides causal evidence that entry decisions respond to the visual presentation of congestion beyond headcount, while a structural entry model distinguishes between operational and behavior-implied congestion to study implications for congestion management. The analysis shows that classical equivalence results between admission policies break down when customers respond to perceived rather than true congestion, with welfare differences across policies of up to 40% in a representative environment. It also shows that providing true congestion information is not uniformly welfare-improving, reducing welfare by up to 7% in some operating regimes while increasing it by as much as 56% in others. More broadly, the findings suggest that queue design and information provision are operational levers that shape both customer behavior and the effectiveness of congestion-management policies.
+*Enzo A. Bergamo, Gad Allon, and Ken Moon* <a class="paper-link" href="https://papers.ssrn.com/sol3/papers.cfm?abstract_id=7039040" target="_blank">[SSRN]</a>
 ***

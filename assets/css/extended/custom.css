@@ -8,19 +8,16 @@
     margin-bottom: 4px;
 }
 
-/* Style paper links (e.g. [SSRN]) as a muted badge under the author line. */
+/* Style paper links (e.g. [SSRN]) as a muted badge next to the author line. */
 .section-research .post-content .paper-link {
-    margin-bottom: 6px;
-}
-
-.section-research .post-content .paper-link a {
     font-size: 14px;
     font-weight: normal;
     color: var(--secondary);
     box-shadow: 0 1px 0;
+    margin-left: 6px;
 }
 
-.section-research .post-content .paper-link a:hover {
+.section-research .post-content .paper-link:hover {
     color: var(--primary);
 }
 
