@@ -34,11 +34,11 @@
    Left margin stays 0 so the button row stays flush with the text above it. */
 .button {
     margin: 7px 14px 7px 0px;
-    padding: 6px;
+    padding: 8px;
 }
 
 .button-inner {
-    padding: 0 8px;
+    padding: 0 10px;
 }
 
 /* Mobile: more breathing room on the sides and slightly smaller type. */
@@ -62,10 +62,10 @@
 
     .button {
         margin: 5px 10px 5px 0px;
-        padding: 5px;
+        padding: 6px;
     }
 
     .button-inner {
-        padding: 0 7px;
+        padding: 0 8px;
     }
 }
