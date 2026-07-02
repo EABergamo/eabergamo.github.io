@@ -8,6 +8,23 @@
     margin-bottom: 6px;
 }
 
+/* Talks listing: date on the left, conference on the right. */
+.section-talks .post-content .talks-list {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.section-talks .post-content .talks-row {
+    display: grid;
+    grid-template-columns: 100px 1fr;
+    gap: 16px;
+}
+
+.section-talks .post-content .talks-date {
+    color: var(--secondary);
+}
+
 /* Match the CV page background to the list/home pages (light gray). */
 .page-cv {
     background: var(--code-bg);
