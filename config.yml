@@ -65,17 +65,8 @@ params:
           "
           imageUrl: "profile_pic.jpg"
           imageTitle: Enzo Bergamo
-          imageWidth: 160
-          imageHeight: 160
-          buttons:
-            - name: CV
-              url: cv
-            - name: Research
-              url: research
-            - name: Talks
-              url: talks
-            - name: Teaching
-              url: courses
+          imageWidth: 210
+          imageHeight: 210
 
     socialIcons:
         # - name: CV

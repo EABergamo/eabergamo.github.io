@@ -1,21 +1,31 @@
 .buttons,
 .main .profile {
     display: flex;
-    justify-content: left;
+    justify-content: center;
 }
 .main .profile {
-    align-items: center;
-    min-height: calc(100vh - var(--footer-height) - (var(--gap) * 2));
-    min-height: calc(100svh - var(--footer-height) - (var(--gap) * 2));
+    align-items: flex-start;
+    min-height: auto;
+    padding-top: 20px;
     font-size: var(--homesize);
     line-height: var(--lineheight);
 }
 
+/* Side-by-side: text on the left, image on the right. */
 .profile .profile_inner {
     display: flex;
-    flex-direction: column;
-    align-items: flex-start;
-    gap: 10px;
+    flex-direction: row;
+    align-items: center;
+    text-align: left;
+    gap: 40px;
+}
+
+.profile-text {
+    flex: 1;
+}
+
+.profile-image {
+    flex-shrink: 0;
 }
 
 .profile .profile_inner h1 {
@@ -23,7 +33,16 @@
 }
 
 .profile img {
-    border-radius: 50%;
+    border-radius: 0;
+}
+
+/* Narrow screens: stack with the image on top, centered. */
+@media screen and (max-width: 700px) {
+    .profile .profile_inner {
+        flex-direction: column-reverse;
+        text-align: center;
+        gap: 16px;
+    }
 }
 
 .buttons {

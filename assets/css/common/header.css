@@ -1,7 +1,7 @@
 .nav {
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-between;
+    justify-content: center;
     margin-inline-start: auto;
     margin-inline-end: auto;
     line-height: var(--header-height);
@@ -61,53 +61,17 @@ body:not(.dark) #sun {
     margin-inline-start: var(--gap);
 }
 
-/* Hamburger toggle: hidden by default, shown only on narrow screens */
+/* Hamburger toggle removed: tabs are always visible and centered. */
 .menu-toggle {
     display: none;
-    cursor: pointer;
-    margin: auto var(--gap);
-    padding: 4px;
-    color: var(--primary);
 }
 
-@media screen and (max-width: 600px) {
-    .menu-toggle {
-        display: flex;
-        align-items: center;
-    }
-
-    /* Collapse the menu into a full-width dropdown, hidden until toggled */
-    #menu {
-        display: none;
-        flex-basis: 100%;
-        flex-direction: column;
-        align-items: stretch;
-        margin: 4px var(--gap) 0;
-        padding: 0;
-        line-height: normal;
-        border-top: 1px solid rgb(226, 226, 226);
-        border-bottom: 1px solid rgb(226, 226, 226);
-        overflow-x: visible;
-        white-space: normal;
-    }
-
-    .menu-toggle-cb:checked ~ #menu {
-        display: flex;
-    }
-
-    #menu li {
-        width: 100%;
-    }
-
-    #menu li + li {
-        margin-inline-start: 0;
-        border-top: 1px solid rgb(226, 226, 226);
-    }
-
-    #menu a {
-        display: block;
-        padding: 10px 0;
-    }
+/* Keep the tabs as a centered, wrapping row at every screen size. */
+#menu {
+    flex-wrap: wrap;
+    justify-content: center;
+    overflow-x: visible;
+    white-space: normal;
 }
 
 #menu a {
