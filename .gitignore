@@ -10,3 +10,4 @@ _site/
 
 # Hugo build lock / cache
 .hugo_build.lock
+resources/_gen/
