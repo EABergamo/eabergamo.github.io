@@ -1,11 +1,9 @@
-/* Full-width header that stays pinned on scroll, set off from the page by a
-   divider line (same background as the page, no jarring color change). */
+/* Full-width header that stays pinned on scroll. */
 .header {
     position: sticky;
     top: 0;
     z-index: 100;
     background: var(--code-bg);
-    border-bottom: 1px solid var(--tertiary);
 }
 
 .nav {
@@ -97,7 +95,7 @@ body:not(.dark) #sun {
 
 #menu .menu-label {
     padding-bottom: 2px;
-    border-bottom: 2px solid transparent;
+    border-bottom: 2px solid var(--tertiary);
     transition: border-color 0.15s;
 }
 
