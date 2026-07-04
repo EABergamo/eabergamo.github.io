@@ -39,15 +39,18 @@
                 {{- $processableFormats = $processableFormats | append "webp" -}}
             {{- end -}}
             {{- $prod := (hugo.IsProduction | or (eq site.Params.env "production")) }}
+            {{- /* Resize to 2x the displayed size so the image stays sharp on
+                   Retina/high-DPI screens instead of being upscaled from a
+                   1x-resolution source. */}}
             {{- if and (in $processableFormats $img.MediaType.SubType) (eq $prod true)}}
                 {{- if (not (and (not .imageHeight) (not .imageWidth))) }}
-                    {{- $img = $img.Resize (printf "%dx%d" .imageWidth .imageHeight) }}
+                    {{- $img = $img.Resize (printf "%dx%d" (mul .imageWidth 2) (mul .imageHeight 2)) }}
                 {{- else if .imageHeight }}
-                    {{- $img = $img.Resize (printf "x%d" .imageHeight) }}
+                    {{- $img = $img.Resize (printf "x%d" (mul .imageHeight 2)) }}
                 {{ else if .imageWidth }}
-                    {{- $img = $img.Resize (printf "%dx" .imageWidth) }}
+                    {{- $img = $img.Resize (printf "%dx" (mul .imageWidth 2)) }}
                 {{ else }}
-                    {{- $img = $img.Resize "150x150" }}
+                    {{- $img = $img.Resize "300x300" }}
                 {{- end }}
             {{- end }}
             <img draggable="false" src="{{ $img.RelPermalink }}" alt="{{ .imageTitle | default "profile image" }}" title="{{ .imageTitle }}"
