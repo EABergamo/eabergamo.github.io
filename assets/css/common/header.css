@@ -88,16 +88,18 @@ body:not(.dark) #sun {
     font-size: var(--headersize);
     font-weight: 400;
     color: var(--secondary);
-    transition: color 0.15s;
+    border-bottom: 2px solid var(--tertiary);
+    padding-bottom: 2px;
+    transition: color 0.15s, border-color 0.15s;
 }
 
 #menu a:hover {
     color: var(--primary);
 }
 
-#menu .active {
-    border-bottom: 2px solid var(--darkcolor);
+#menu a.active-link {
     color: var(--primary);
+    border-bottom-color: var(--darkcolor);
 }
 
 .lang-switch li,
