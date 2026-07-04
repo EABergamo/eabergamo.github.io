@@ -51,7 +51,7 @@
     .profile .profile_inner {
         flex-direction: column-reverse;
         align-items: flex-start;
-        gap: 26px;
+        gap: 18px;
     }
 
     .profile-text {
