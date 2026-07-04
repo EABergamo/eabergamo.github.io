@@ -87,12 +87,17 @@ body:not(.dark) #sun {
 #menu a {
     font-size: var(--headersize);
     font-weight: 400;
-    font-variant: small-caps;
-    letter-spacing: 0.03em;
+    color: var(--secondary);
+    transition: color 0.15s;
+}
+
+#menu a:hover {
+    color: var(--primary);
 }
 
 #menu .active {
     border-bottom: 2px solid var(--darkcolor);
+    color: var(--primary);
 }
 
 .lang-switch li,
