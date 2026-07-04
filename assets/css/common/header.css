@@ -87,6 +87,8 @@ body:not(.dark) #sun {
 #menu a {
     font-size: var(--headersize);
     font-weight: 400;
+    font-variant: small-caps;
+    letter-spacing: 0.03em;
 }
 
 #menu .active {
