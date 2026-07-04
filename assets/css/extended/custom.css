@@ -52,3 +52,13 @@
         padding: 0 8px;
     }
 }
+
+/* The theme sets `body { overflow-x: hidden }` at <=480px, which turns the body
+   into a scroll container and breaks the sticky header. `overflow-x: clip`
+   contains horizontal overflow the same way without creating a scroll container,
+   so position: sticky keeps working on phones. */
+@media screen and (max-width: 480px) {
+    body {
+        overflow-x: clip;
+    }
+}

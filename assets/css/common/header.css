@@ -1,3 +1,13 @@
+/* Full-width header that stays pinned on scroll, set off from the page by a
+   divider line (same background as the page, no jarring color change). */
+.header {
+    position: sticky;
+    top: 0;
+    z-index: 100;
+    background: var(--code-bg);
+    border-bottom: 1px solid var(--tertiary);
+}
+
 .nav {
     display: flex;
     flex-wrap: wrap;
@@ -5,7 +15,7 @@
     margin-inline-start: auto;
     margin-inline-end: auto;
     line-height: var(--header-height);
-    background: var(--code-bg);
+    background: transparent;
 }
 
 .nav a {
