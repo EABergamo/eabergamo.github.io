@@ -65,8 +65,8 @@ params:
           "
           imageUrl: "profile_pic.jpg"
           imageTitle: Enzo Bergamo
-          imageWidth: 210
-          imageHeight: 210
+          imageWidth: 320
+          imageHeight: 320
 
     socialIcons:
         # - name: CV
