@@ -66,8 +66,8 @@
        scrolling. Higher specificity than the theme's `.profile img { transform:
        scale(.85) }` cancels that scale so width sets the true rendered size. */
     .profile .profile-image img {
-        width: 160px;
-        height: 160px;
+        width: 140px;
+        height: 140px;
         transform: none;
     }
 }
