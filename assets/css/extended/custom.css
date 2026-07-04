@@ -61,4 +61,12 @@
     body {
         overflow-x: clip;
     }
+
+    /* The theme sets .header padding to 9px at this breakpoint; tighten it so
+       the header takes less vertical space and mobile pages fit without
+       scrolling. */
+    .header {
+        padding-top: 4px;
+        padding-bottom: 4px;
+    }
 }
