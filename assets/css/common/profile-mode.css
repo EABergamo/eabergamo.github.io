@@ -62,13 +62,12 @@
         align-self: center;
     }
 
-    /* Match the previous (pre-Goos) photo size on phones. The theme scales
-       the profile image to 85% on mobile; cancel that so it renders at a true 160. */
-    /* Higher specificity than the theme's `.profile img { transform: scale(.85) }`
-       so the scale is actually cancelled and width sets the true rendered size. */
+    /* Photo size on phones, tuned so the page fits within one screen without
+       scrolling. Higher specificity than the theme's `.profile img { transform:
+       scale(.85) }` cancels that scale so width sets the true rendered size. */
     .profile .profile-image img {
-        width: 180px;
-        height: 180px;
+        width: 160px;
+        height: 160px;
         transform: none;
     }
 }
