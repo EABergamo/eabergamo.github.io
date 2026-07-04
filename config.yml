@@ -19,12 +19,9 @@ menu:
         - name: Research
           url: research/
           weight: 3
-        - name: Talks
-          url: talks/
-          weight: 4
         - name: Teaching
           url: courses/
-          weight: 5
+          weight: 4
 
 params:
     description: "Welcome to my website! I am a Ph.D. candidate in the Operations, Informations and Decisions department at The Wharton School."

@@ -8,29 +8,12 @@
     margin-bottom: 6px;
 }
 
-/* Talks listing: date on the left, conference on the right. */
-.section-talks .post-content .talks-list {
-    display: flex;
-    flex-direction: column;
-    gap: 10px;
-}
-
-.section-talks .post-content .talks-row {
-    display: grid;
-    grid-template-columns: 100px 1fr;
-    gap: 16px;
-}
-
-.section-talks .post-content .talks-date {
-    color: var(--secondary);
-}
-
 /* Match the CV page background to the list/home pages (light gray). */
 .page-cv {
     background: var(--code-bg);
 }
 
-/* Tighter spacing/padding for the homepage nav buttons (CV, Research, Talks, Teaching).
+/* Tighter spacing/padding for the homepage nav buttons (CV, Research, Teaching).
    Left margin stays 0 so the button row stays flush with the text above it. */
 .button {
     margin: 7px 14px 7px 0px;
