@@ -34,25 +34,10 @@
             {{- $img = resources.Get .imageUrl }}
         {{- end }}
         {{- if $img }}
-            {{- $processableFormats := (slice "jpg" "jpeg" "png" "tif" "bmp" "gif") -}}
-            {{- if hugo.IsExtended -}}
-                {{- $processableFormats = $processableFormats | append "webp" -}}
-            {{- end -}}
-            {{- $prod := (hugo.IsProduction | or (eq site.Params.env "production")) }}
-            {{- /* Resize to 2x the displayed size so the image stays sharp on
-                   Retina/high-DPI screens instead of being upscaled from a
-                   1x-resolution source. */}}
-            {{- if and (in $processableFormats $img.MediaType.SubType) (eq $prod true)}}
-                {{- if (not (and (not .imageHeight) (not .imageWidth))) }}
-                    {{- $img = $img.Resize (printf "%dx%d" (mul .imageWidth 2) (mul .imageHeight 2)) }}
-                {{- else if .imageHeight }}
-                    {{- $img = $img.Resize (printf "x%d" (mul .imageHeight 2)) }}
-                {{ else if .imageWidth }}
-                    {{- $img = $img.Resize (printf "%dx" (mul .imageWidth 2)) }}
-                {{ else }}
-                    {{- $img = $img.Resize "300x300" }}
-                {{- end }}
-            {{- end }}
+            {{- /* Serve the original full-resolution image and let the
+                   width/height attributes (plus CSS) scale it down, so it
+                   stays sharp at any display density without guessing a
+                   fixed resize target. */}}
             <img draggable="false" src="{{ $img.RelPermalink }}" alt="{{ .imageTitle | default "profile image" }}" title="{{ .imageTitle }}"
                 height="{{ .imageHeight | default 150 }}" width="{{ .imageWidth | default 150 }}" />
         {{- else }}
