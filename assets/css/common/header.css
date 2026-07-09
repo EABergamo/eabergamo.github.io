@@ -96,14 +96,13 @@ body:not(.dark) #sun {
 }
 
 #menu .menu-label {
-    padding-bottom: 2px;
-    border-bottom: 2px solid var(--tertiary);
-    transition: border-color 0.15s;
+    box-shadow: 0 2px 0 0 var(--tertiary);
+    transition: box-shadow 0.15s, color 0.15s;
 }
 
 #menu .menu-label.active {
     color: var(--primary);
-    border-bottom-color: var(--darkcolor);
+    box-shadow: 0 2px 0 0 var(--darkcolor);
 }
 
 .lang-switch li,
