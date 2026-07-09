@@ -85,6 +85,10 @@ body:not(.dark) #sun {
 }
 
 #menu a {
+    display: flex;
+    align-items: center;
+    height: var(--header-height);
+    line-height: normal;
     font-size: var(--headersize);
     font-weight: 400;
     color: var(--secondary);
@@ -95,14 +99,17 @@ body:not(.dark) #sun {
     color: var(--primary);
 }
 
+/* Border-bottom (not box-shadow) so the underline is part of the label's
+   own box and gets centered together with the text by align-items above -
+   otherwise the gap below would be measured to the text, not the line. */
 #menu .menu-label {
-    box-shadow: 0 2px 0 0 var(--tertiary);
-    transition: box-shadow 0.15s, color 0.15s;
+    border-bottom: 2px solid var(--tertiary);
+    transition: border-color 0.15s;
 }
 
 #menu .menu-label.active {
     color: var(--primary);
-    box-shadow: 0 2px 0 0 var(--darkcolor);
+    border-bottom-color: var(--darkcolor);
 }
 
 .lang-switch li,
