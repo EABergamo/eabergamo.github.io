@@ -20,26 +20,27 @@
    instead: softer titles that still lead, muted detail lines that recede, and
    tighter grouping so each course reads as one chunk. */
 
-/* Top-level school headings: the horizontal rules already separate the two
-   schools, so these don't need heavy weight to anchor the page. Demote them to
-   a quiet, small uppercase label — the theme's own h4/h5 idiom — so the two
-   biggest black blocks stop competing with the course titles below. */
+/* Top-level school headings: the broad grouping, so they stay the largest,
+   clearly-parent line. Kept at heading size and a moderate weight so they read
+   as a calm section anchor — prominent because they're the biggest thing on the
+   page, not because they're the boldest. */
 .section-courses .post-content h2 {
     font-weight: 600;
-    font-size: 13px;
-    letter-spacing: 0.06em;
-    text-transform: uppercase;
-    color: var(--secondary);
-    margin: 34px auto 20px;
+    font-size: 20px;
+    color: var(--content);
+    margin: 36px auto 16px;
 }
 
-/* Course titles: the primary line in each block. Medium weight and dark so
-   they lead cleanly, but no longer flanked by big bold school headers. */
+/* Course titles: eight of these stacked in full bold was the real source of
+   weight. Drop them to a medium weight and a size below the school heading —
+   they still read as the title of each block (the only dark line; the details
+   below are gray), but the page loses its wall of bold and the hierarchy stays
+   right: broad set larger, individual course smaller. */
 .section-courses .post-content h3 {
-    font-weight: 600;
-    font-size: 17.5px;
+    font-weight: 500;
+    font-size: 17px;
     color: var(--content);
-    margin: 26px 0 6px;
+    margin: 22px 0 4px;
 }
 
 /* Detail lines (semesters, evaluations, links): recede to a soft gray so the
@@ -47,7 +48,7 @@
    quieter. */
 .section-courses .post-content ul {
     color: var(--secondary);
-    font-size: 16.5px;
+    font-size: 16px;
     line-height: 1.5;
     margin-bottom: 0;
 }
