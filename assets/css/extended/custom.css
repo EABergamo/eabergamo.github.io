@@ -21,7 +21,7 @@
    the Research content, both recede to the same soft gray as Teaching's
    detail lines. */
 .section-research .post-content p {
-    color: var(--secondary);
+    color: rgb(84, 84, 84);
     font-size: 16px;
     line-height: 1.5;
     margin: 0 0 3px;
@@ -66,11 +66,12 @@
     margin: 22px 0 4px;
 }
 
-/* Detail lines (semesters, evaluations, links): recede to a soft gray so the
-   titles lead and the eye can skim. All information is preserved — just
-   quieter. */
+/* Detail lines (semesters, evaluations, links): recede to a muted gray so the
+   titles lead and the eye can skim — but a touch darker than the theme's
+   --secondary so the text stays comfortably readable. All information is
+   preserved, just quieter. Shared with the Research page for consistency. */
 .section-courses .post-content ul {
-    color: var(--secondary);
+    color: rgb(84, 84, 84);
     font-size: 16px;
     line-height: 1.5;
     margin-bottom: 0;
@@ -83,7 +84,7 @@
 /* The evaluation-scale note under the SEAS heading: already italic; nudge it
    to the same muted gray so it reads as a caption. */
 .section-courses .post-content h2 + p em {
-    color: var(--secondary);
+    color: rgb(84, 84, 84);
 }
 
 /* Softer, quieter horizontal rules between sections. */
