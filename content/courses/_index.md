@@ -4,7 +4,7 @@ description: "History of coursework where I served as instructor or teaching ass
 ---
 
 ***
-## At the Wharton School of the University of Pennsylvania
+## At the Wharton School of the University of Pennsylvania:
 ### Teaching Assistant, Quality and Productivity (OIDD 6110, MBA Core)
   - Semesters: Fall 2025 (Christian Terwiesch, Santiago Gallino); Spring 2026 (Christian Terwiesch)
 
@@ -12,7 +12,7 @@ description: "History of coursework where I served as instructor or teaching ass
   - Semesters: Summer 2025, Summer 2026
 ***
 
-## At the University of Pennsylvania School of Engineering and Applied Science
+## At the University of Pennsylvania School of Engineering and Applied Science:
 _(Evaluation scale: 0 to 4; Poor, Fair, Good, Very Good, Excellent)_
 ### Teaching Assistant, Stochastic Systems Analysis and Simulation (ESE 3030)
   - Semester: Spring 2023 (Shirin Saeedi Bidokhti)
