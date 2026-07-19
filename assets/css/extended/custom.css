@@ -1,11 +1,34 @@
-/* Tighter spacing for the Research listing:
-   shrink the gap after each paper title (h3) and after the author line. */
-.section-research .post-content h3 {
-    margin-bottom: 4px;
+/* Research page: mirror the Teaching page's hierarchy for a consistent look
+   across the site. Same three tiers — section category (h2) as the larger
+   parent, paper title (h3) at a medium weight, and the author / availability
+   lines muted to gray so they recede. The paper's meta here is paragraphs
+   rather than a bullet list, but the visual result matches Teaching. */
+.section-research .post-content h2 {
+    font-weight: 600;
+    font-size: 20px;
+    color: var(--content);
+    margin: 36px auto 16px;
 }
 
-.section-research .post-content h3 + p {
-    margin-bottom: 6px;
+.section-research .post-content h3 {
+    font-weight: 500;
+    font-size: 17px;
+    color: var(--content);
+    margin: 22px 0 4px;
+}
+
+/* Author line and the italic "Available on …" note: the only paragraphs in
+   the Research content, both recede to the same soft gray as Teaching's
+   detail lines. */
+.section-research .post-content p {
+    color: var(--secondary);
+    font-size: 16px;
+    line-height: 1.5;
+    margin: 0 0 3px;
+}
+
+.section-research .post-content hr {
+    margin: 34px 0;
 }
 
 /* Match the CV page background to the list/home pages (light gray). */
