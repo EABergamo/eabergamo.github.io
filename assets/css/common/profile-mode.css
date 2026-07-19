@@ -41,6 +41,15 @@
     border-radius: 0;
 }
 
+/* Desktop photo size for the stacked layout — about half the native 320px so
+   it reads as a portrait, not a banner. (The <=700px breakpoint sets its own
+   size below.) transform:none cancels the theme's .85 scale so width is exact. */
+.profile .profile-image img {
+    width: 160px;
+    height: 160px;
+    transform: none;
+}
+
 /* Narrow screens: stack with the image on top (centered), text left-aligned,
    with tight padding/gaps (like the old layout) so it fits without scrolling. */
 @media screen and (max-width: 700px) {
