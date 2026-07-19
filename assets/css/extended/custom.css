@@ -13,6 +13,56 @@
     background: var(--code-bg);
 }
 
+/* Teaching (courses) page: lighten the visual weight while keeping every
+   detail. The page was reading as a wall of equal-weight bold black text
+   because every course title was full-weight bold and the detail lines were
+   near-black too. Establish hierarchy through weight and color contrast
+   instead: softer titles that still lead, muted detail lines that recede, and
+   tighter grouping so each course reads as one chunk. */
+
+/* Top-level school headings: keep them as the primary anchors but at a medium
+   weight so they frame the page rather than shout. */
+.section-courses .post-content h2 {
+    font-weight: 600;
+    font-size: 22px;
+    margin: 34px auto 18px;
+}
+
+/* Course titles: medium weight instead of heavy bold. Still the darkest,
+   most prominent line in each block, but no longer competing with itself
+   eight times over. Sit them close to their own detail lines below. */
+.section-courses .post-content h3 {
+    font-weight: 600;
+    font-size: 18px;
+    color: var(--content);
+    margin: 22px 0 6px;
+}
+
+/* Detail lines (semesters, evaluations, links): recede to a soft gray so the
+   titles lead and the eye can skim. All information is preserved — just
+   quieter. */
+.section-courses .post-content ul {
+    color: var(--secondary);
+    font-size: 16.5px;
+    line-height: 1.5;
+    margin-bottom: 0;
+}
+
+.section-courses .post-content li {
+    margin: 2px 0;
+}
+
+/* The evaluation-scale note under the SEAS heading: already italic; nudge it
+   to the same muted gray so it reads as a caption. */
+.section-courses .post-content h2 + p em {
+    color: var(--secondary);
+}
+
+/* Softer, quieter horizontal rules between sections. */
+.section-courses .post-content hr {
+    margin: 30px 0;
+}
+
 /* Tighter spacing/padding for the homepage nav buttons (CV, Research, Teaching).
    Left margin stays 0 so the button row stays flush with the text above it. */
 .button {
