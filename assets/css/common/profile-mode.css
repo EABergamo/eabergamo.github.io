@@ -38,7 +38,7 @@
 }
 
 .profile img {
-    border-radius: 0;
+    border-radius: 50%;
 }
 
 /* Desktop photo size for the stacked layout — about half the native 320px so
