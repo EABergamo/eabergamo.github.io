@@ -62,6 +62,13 @@
         align-self: center;
     }
 
+    /* Center the name under the stacked photo so it sits with the centered
+       image above it; the bio paragraph and social icons stay left-aligned. */
+    .profile-text h1 {
+        align-self: center;
+        text-align: center;
+    }
+
     /* Photo size on phones, tuned so the page fits within one screen without
        scrolling. Higher specificity than the theme's `.profile img { transform:
        scale(.85) }` cancels that scale so width sets the true rendered size. */
