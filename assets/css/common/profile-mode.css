@@ -11,13 +11,13 @@
     line-height: var(--lineheight);
 }
 
-/* Side-by-side: text on the left, image on the right. */
+/* Stacked: image on top (left-aligned), text below. */
 .profile .profile_inner {
     display: flex;
-    flex-direction: row;
-    align-items: center;
+    flex-direction: column-reverse;
+    align-items: flex-start;
     text-align: left;
-    gap: 40px;
+    gap: 28px;
 }
 
 /* Stack name, bio and icons with consistent vertical breathing room. */
