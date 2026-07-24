@@ -222,6 +222,10 @@
     font-size: 16px;
     color: var(--primary);
     text-decoration: none;
+    /* Pull the email up toward the name (the profile stack uses a uniform flex
+       gap, so a negative top margin tightens just this one gap; the space below
+       the email — to the social links — stays as-is). */
+    margin-top: -6px;
 }
 
 .profile-email:visited {
