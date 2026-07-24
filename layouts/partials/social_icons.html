@@ -1,0 +1,10 @@
+<div class="social-icons" {{ with .align}}align="{{.}}" {{- end }}>
+    {{- range site.Params.socialIcons }}
+    {{- $key := ( trim .name " " | lower | replaceRE "[^a-z0-9]+" "-" ) }}
+    <a class="social-icon social-{{ $key }}" href="{{ trim .url " " | safeURL }}" target="_blank" rel="noopener noreferrer me"
+        title="{{ (.title | default .name) | title }}">
+        {{ partial "svg.html" . }}
+        <span class="social-label">{{ .name }}</span>
+    </a>
+    {{- end }}
+</div>
