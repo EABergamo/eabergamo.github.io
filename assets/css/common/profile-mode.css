@@ -62,11 +62,17 @@
         align-self: center;
     }
 
-    /* Center the name under the stacked photo so it sits with the centered
-       image above it; the bio paragraph and social icons stay left-aligned. */
+    /* Center the name and the social links under the stacked photo so they
+       sit with the centered image above them; the bio paragraph stays
+       left-aligned. */
     .profile-text h1 {
         align-self: center;
         text-align: center;
+    }
+
+    .profile-text .social-icons {
+        align-self: center;
+        justify-content: center;
     }
 
     /* Photo size on phones, tuned so the page fits within one screen without
