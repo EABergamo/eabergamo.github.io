@@ -150,43 +150,39 @@
     }
 }
 
-/* Labeled social links: show a text label beside each icon so visitors know
-   what each link is (Google Scholar, LinkedIn). Rendered by the
-   layouts/partials/social_icons.html override. */
+/* Labeled social links as buttons: icon + label inside a bordered pill so they
+   read as distinct, clickable buttons — visually separate from the inline text
+   links in the bio, which keeps the two from competing. Matches the site's
+   existing button styling (border, radius, hover highlight). */
 .social-icons {
     display: flex;
     flex-wrap: wrap;
-    gap: 6px 20px;
+    gap: 10px;
     align-items: center;
 }
 
-/* Higher specificity than the theme's `.social-icons a { padding: 10px }` so
-   the link padding is actually small — otherwise the labels sit in a lot of
-   empty space above and below. */
+/* Higher specificity than the theme's `.social-icons a { padding: 10px }`. */
 .social-icons a.social-icon {
     display: inline-flex;
     align-items: center;
-    gap: 7px;
-    padding: 2px 2px;
+    gap: 8px;
+    padding: 6px 13px;
+    border: 1px solid var(--tertiary);
+    border-radius: var(--radius);
+    background: var(--theme);
+    transition: background 0.1s;
+}
+
+.social-icons a.social-icon:hover {
+    background: var(--lightcolor);
 }
 
 .social-icons a svg {
-    height: 22px;
-    width: 22px;
+    height: 18px;
+    width: 18px;
 }
 
 .social-label {
-    font-size: 15px;
+    font-size: 14px;
     color: var(--primary);
-    /* Underline in the bio's own text color — a subtle, monochrome link
-       affordance so the labels read as clickable without the orange accent. */
-    text-decoration: underline;
-    text-decoration-color: var(--primary);
-    text-decoration-thickness: 2px;
-    text-underline-offset: 3px;
-}
-
-.social-icon:hover .social-label {
-    color: var(--darkcolor);
-    text-decoration-color: var(--darkcolor);
 }
