@@ -190,3 +190,18 @@
     color: var(--darkcolor);
     text-decoration-color: var(--darkcolor);
 }
+
+/* Recede the bio's inline links behind the social labels. The subtitle wraps
+   each linked phrase in <u>, which draws the underline; soften that underline
+   to a faint gray (text stays dark and readable) so the crisp, darker social
+   labels read as the primary links and the bio no longer feels
+   over-underlined. */
+.profile-text u {
+    text-decoration-color: var(--gray);
+    text-decoration-thickness: 1px;
+    text-underline-offset: 2px;
+}
+
+.profile-text a:hover u {
+    text-decoration-color: var(--darkcolor);
+}
