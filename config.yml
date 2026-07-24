@@ -76,8 +76,8 @@ params:
         #   url: location/
         # - name: Office Hours
         #   url: officehours/
-        # - name: Google Scholar
-        #   url: https://scholar.google.com/citations?user=cL23w-4AAAAJ
+        - name: Google Scholar
+          url: "https://scholar.google.com/citations?user=JbVhRc8AAAAJ&hl=en&oi=ao"
         - name: LinkedIn
           url: https://www.linkedin.com/in/eabergamo
         - name: GitHub
