@@ -174,15 +174,16 @@
 
 .social-label {
     font-size: 15px;
-    color: var(--content);
-    /* Orange underline — the site's link affordance (matches the SSRN / "here"
-       links) — so the labels read as clickable. */
+    color: var(--primary);
+    /* Underline in the bio's own text color — a subtle, monochrome link
+       affordance so the labels read as clickable without the orange accent. */
     text-decoration: underline;
-    text-decoration-color: var(--darkcolor);
+    text-decoration-color: var(--primary);
     text-decoration-thickness: 2px;
     text-underline-offset: 3px;
 }
 
 .social-icon:hover .social-label {
     color: var(--darkcolor);
+    text-decoration-color: var(--darkcolor);
 }
