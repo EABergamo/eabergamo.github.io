@@ -205,3 +205,12 @@
 .profile-text a:hover u {
     text-decoration-color: var(--darkcolor);
 }
+
+/* Keep bio links the exact same color as the surrounding text in every state,
+   including :visited — otherwise the browser's default visited-link color makes
+   already-clicked links (Wharton, etc.) look like a different color. */
+.profile-text a,
+.profile-text a:visited,
+.profile-text a u {
+    color: inherit;
+}
