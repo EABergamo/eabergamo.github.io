@@ -175,6 +175,12 @@
 .social-label {
     font-size: 15px;
     color: var(--content);
+    /* Orange underline — the site's link affordance (matches the SSRN / "here"
+       links) — so the labels read as clickable. */
+    text-decoration: underline;
+    text-decoration-color: var(--darkcolor);
+    text-decoration-thickness: 2px;
+    text-underline-offset: 3px;
 }
 
 .social-icon:hover .social-label {
