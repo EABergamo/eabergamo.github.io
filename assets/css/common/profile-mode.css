@@ -51,9 +51,11 @@
     .profile .profile_inner {
         flex-direction: column-reverse;
         align-items: flex-start;
-        gap: 18px;
+        gap: 10px;
     }
 
+    /* Even, tight rhythm between name, links and bio, matching the photo gap
+       above so the whole stack shares one consistent spacing. */
     .profile-text {
         gap: 10px;
     }
