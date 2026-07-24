@@ -212,3 +212,22 @@
 .profile-text a u {
     color: inherit;
 }
+
+/* Email address shown as a line just below the name. Styled as plain (bold)
+   text even though it links to mailto: — no underline, so it doesn't add to
+   the link/underline density. Its centering on mobile is handled in
+   profile-mode.css alongside the name and social links. */
+.profile-email {
+    font-weight: 600;
+    font-size: 16px;
+    color: var(--primary);
+    text-decoration: none;
+}
+
+.profile-email:visited {
+    color: var(--primary);
+}
+
+.profile-email:hover {
+    color: var(--darkcolor);
+}

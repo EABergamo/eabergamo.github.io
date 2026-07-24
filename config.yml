@@ -51,6 +51,7 @@ params:
     profileMode:
           enabled: true
           title: Enzo A. Bergamo
+          email: ebergamo@wharton.upenn.edu
           subtitle: "<strong>Welcome to my website!</strong> I am a Ph.D. candidate in the [<u>Operations, Information and Decisions</u>](https://oid.wharton.upenn.edu) 
           department at [<u>The Wharton School</u>](https://www.wharton.upenn.edu) of the University of Pennsylvania.  
           My research focuses on data-driven design and analysis of service systems, anchored in empirically grounded customer behavior.

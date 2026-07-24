@@ -3,6 +3,9 @@
     <div class="profile_inner">
         <div class="profile-text">
             <h1>{{ .title | default site.Title | markdownify }}</h1>
+            {{- with .email }}
+            <a class="profile-email" href="mailto:{{ . }}">{{ . }}</a>
+            {{- end }}
             {{- partial "social_icons.html" -}}
             <span>{{ .subtitle | markdownify }}</span>
 

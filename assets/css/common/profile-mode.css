@@ -64,10 +64,11 @@
         align-self: center;
     }
 
-    /* Center the name and the social links under the stacked photo so they
-       sit with the centered image above them; the bio paragraph stays
+    /* Center the name, email and the social links under the stacked photo so
+       they sit with the centered image above them; the bio paragraph stays
        left-aligned. */
-    .profile-text h1 {
+    .profile-text h1,
+    .profile-text .profile-email {
         align-self: center;
         text-align: center;
     }
