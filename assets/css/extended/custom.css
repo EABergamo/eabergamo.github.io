@@ -160,11 +160,14 @@
     align-items: center;
 }
 
-.social-icon {
+/* Higher specificity than the theme's `.social-icons a { padding: 10px }` so
+   the link padding is actually small — otherwise the labels sit in a lot of
+   empty space above and below. */
+.social-icons a.social-icon {
     display: inline-flex;
     align-items: center;
     gap: 7px;
-    padding: 6px 2px;
+    padding: 2px 2px;
 }
 
 .social-icons a svg {
