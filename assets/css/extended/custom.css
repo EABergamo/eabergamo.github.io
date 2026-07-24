@@ -178,15 +178,10 @@
 .social-label {
     font-size: 15px;
     color: var(--primary);
-    /* Underline in the bio's own text color — a subtle, monochrome link
-       affordance so the labels read as clickable without the orange accent. */
-    text-decoration: underline;
-    text-decoration-color: var(--primary);
-    text-decoration-thickness: 2px;
-    text-underline-offset: 3px;
+    /* No underline here — the icon already marks these as links, and it keeps
+       "underlined text = link" reserved for the bio, so the two don't compete. */
 }
 
 .social-icon:hover .social-label {
     color: var(--darkcolor);
-    text-decoration-color: var(--darkcolor);
 }
