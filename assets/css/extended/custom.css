@@ -151,37 +151,32 @@
 }
 
 /* Labeled social links: show a text label beside each icon so visitors know
-   what each link is (Email, Google Scholar, LinkedIn). Styled as pills to match
-   the site's button aesthetic and read as obviously clickable. Rendered by the
+   what each link is (Google Scholar, LinkedIn). Rendered by the
    layouts/partials/social_icons.html override. */
 .social-icons {
     display: flex;
     flex-wrap: wrap;
-    gap: 10px;
+    gap: 6px 20px;
     align-items: center;
 }
 
 .social-icon {
     display: inline-flex;
     align-items: center;
-    gap: 8px;
-    padding: 6px 13px;
-    border: 1px solid var(--tertiary);
-    border-radius: var(--radius);
-    background: var(--theme);
-    transition: background 0.1s;
-}
-
-.social-icon:hover {
-    background: var(--lightcolor);
+    gap: 7px;
+    padding: 6px 2px;
 }
 
 .social-icons a svg {
-    height: 18px;
-    width: 18px;
+    height: 22px;
+    width: 22px;
 }
 
 .social-label {
-    font-size: 14px;
+    font-size: 15px;
     color: var(--content);
+}
+
+.social-icon:hover .social-label {
+    color: var(--darkcolor);
 }

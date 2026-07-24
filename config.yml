@@ -68,8 +68,8 @@ params:
     socialIcons:
         # - name: CV
         #   url: cv.pdf
-        - name: Email
-          url: mailto:ebergamo@wharton.upenn.edu
+        # - name: Email
+        #   url: mailto:ebergamo@wharton.upenn.edu
         # - name: Zoom
         #   url: https://www.zoom.us/my/igelfeld
         # - name: Location
