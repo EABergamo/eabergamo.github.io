@@ -183,6 +183,13 @@
     box-shadow: 0 2px 0 var(--darkcolor);
 }
 
+/* The theme tints social links orange on hover (`.social-icons a:hover`).
+   Override it so the icon (and label) stay dark on hover — the orange underline
+   is already the link affordance. */
+.social-icons a.social-icon:hover {
+    color: var(--primary);
+}
+
 /* Bio inline links: present and clickable, but not highlighted or underlined.
    Same color as the surrounding text in every state (including :visited, whose
    browser default would otherwise tint clicked links) and no underline, so
