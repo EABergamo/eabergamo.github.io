@@ -201,6 +201,14 @@
     box-shadow: none;
 }
 
+/* The gap between the bio's two paragraphs is ~29px, so the default ~12px gap
+   above the bio made the social links look glued to it. Add space above the
+   bio (the direct-child span) so the buttons→bio gap is clearly the larger of
+   the two — separating the links group from the bio. */
+.profile-text > span {
+    margin-top: 22px;
+}
+
 /* Email address shown as a line just below the name. Styled as plain (bold)
    text even though it links to mailto: — no underline, so it doesn't add to
    the link/underline density. Its centering on mobile is handled in
