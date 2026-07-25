@@ -158,6 +158,9 @@
     flex-wrap: wrap;
     gap: 6px 20px;
     align-items: center;
+    /* Pull the links up toward the email so name/email/links read as one snug
+       group (negative margin trims the profile stack's flex gap above). */
+    margin-top: -6px;
 }
 
 /* Higher specificity than the theme's `.social-icons a { padding: 10px }` so
@@ -229,7 +232,7 @@
     /* Pull the email up toward the name (the profile stack uses a uniform flex
        gap, so a negative top margin tightens just this one gap; the space below
        the email — to the social links — stays as-is). */
-    margin-top: -6px;
+    margin-top: -8px;
 }
 
 .profile-email:visited {
