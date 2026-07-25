@@ -37,6 +37,20 @@
     font-size: 40px;
 }
 
+/* Center the name, email and links within the profile column on BOTH layouts,
+   so desktop matches mobile — the only difference between them is the photo
+   position (top on mobile, right on desktop). The bio stays left-aligned. */
+.profile-text h1,
+.profile-text .profile-email {
+    align-self: center;
+    text-align: center;
+}
+
+.profile-text .social-icons {
+    align-self: center;
+    justify-content: center;
+}
+
 .profile img {
     border-radius: 0;
 }
@@ -62,20 +76,6 @@
 
     .profile-image {
         align-self: center;
-    }
-
-    /* Center the name, email and the social links under the stacked photo so
-       they sit with the centered image above them; the bio paragraph stays
-       left-aligned. */
-    .profile-text h1,
-    .profile-text .profile-email {
-        align-self: center;
-        text-align: center;
-    }
-
-    .profile-text .social-icons {
-        align-self: center;
-        justify-content: center;
     }
 
     /* Photo size on phones, tuned so the page fits within one screen without
