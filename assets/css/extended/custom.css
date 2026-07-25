@@ -175,12 +175,13 @@
     width: 22px;
 }
 
-/* Text (and icon) stay dark; only the underline takes the brick color sampled
-   from the profile-photo background. */
+/* Text (and icon) stay dark; only the underline takes a brick/terracotta tone
+   drawn from the profile-photo background — lifted a bit brighter/warmer than
+   the raw sampled color so it doesn't read as a dark brown. */
 .social-label {
     font-size: 15px;
     color: var(--primary);
-    box-shadow: 0 2px 0 #7d4f3a;
+    box-shadow: 0 2px 0 #a8623d;
 }
 
 /* Bio inline links: underline in the text color (currentColor) so the line
