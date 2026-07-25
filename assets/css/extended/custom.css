@@ -181,7 +181,7 @@
 .social-label {
     font-size: 15px;
     color: var(--primary);
-    box-shadow: 0 2px 0 #a8623d;
+    box-shadow: 0 2px 0 #c96a2e;
 }
 
 /* Bio inline links: underline in the text color (currentColor) so the line
