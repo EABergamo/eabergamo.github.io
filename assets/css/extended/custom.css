@@ -163,11 +163,14 @@
 /* Higher specificity than the theme's `.social-icons a { padding: 10px }` so
    the link padding is actually small — otherwise the labels sit in a lot of
    empty space above and below. */
+/* The links (icon + label + underline) take the brick color sampled from the
+   profile-photo background, tying them to the photo. */
 .social-icons a.social-icon {
     display: inline-flex;
     align-items: center;
     gap: 7px;
     padding: 2px 2px;
+    color: #7d4f3a;
 }
 
 .social-icons a svg {
@@ -177,11 +180,8 @@
 
 .social-label {
     font-size: 15px;
-    color: var(--primary);
-    /* Solid orange underline, matching the site's other links (.post-content a
-       uses `box-shadow: 0 2px 0 var(--darkcolor)`), so the home-page links look
-       the same as the SSRN / "here" links elsewhere. */
-    box-shadow: 0 2px 0 var(--darkcolor);
+    color: inherit;
+    box-shadow: 0 2px 0 currentColor;
 }
 
 /* Bio inline links: underline in the text color (currentColor) so the line
