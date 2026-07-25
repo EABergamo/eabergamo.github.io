@@ -178,17 +178,10 @@
 .social-label {
     font-size: 15px;
     color: var(--primary);
-    /* Underline in the bio's own text color — a subtle, monochrome link
-       affordance so the labels read as clickable without the orange accent. */
-    text-decoration: underline;
-    text-decoration-color: var(--primary);
-    text-decoration-thickness: 1.5px;
-    text-underline-offset: 3px;
-}
-
-.social-icon:hover .social-label {
-    color: var(--darkcolor);
-    text-decoration-color: var(--darkcolor);
+    /* Solid orange underline, matching the site's other links (.post-content a
+       uses `box-shadow: 0 2px 0 var(--darkcolor)`), so the home-page links look
+       the same as the SSRN / "here" links elsewhere. */
+    box-shadow: 0 2px 0 var(--darkcolor);
 }
 
 /* Bio inline links: underline in the text color (currentColor) so the line
