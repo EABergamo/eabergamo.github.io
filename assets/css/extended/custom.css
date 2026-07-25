@@ -175,35 +175,23 @@
     width: 22px;
 }
 
-/* Text (and icon) stay dark; only the underline takes a brick/terracotta tone
-   drawn from the profile-photo background — lifted a bit brighter/warmer than
-   the raw sampled color so it doesn't read as a dark brown. */
+/* Text (and icon) stay dark; only the underline takes the site accent color,
+   which is now shared site-wide via --darkcolor (nav, other-page links, etc.). */
 .social-label {
     font-size: 15px;
     color: var(--primary);
-    box-shadow: 0 2px 0 #c96a2e;
+    box-shadow: 0 2px 0 var(--darkcolor);
 }
 
-/* Bio inline links: underline in the text color (currentColor) so the line
-   matches the text, kept thin so it still reads lighter than the social
-   labels' 1.5px underline. */
-.profile-text u {
-    text-decoration-color: currentColor;
-    text-decoration-thickness: 1px;
-    text-underline-offset: 2px;
-}
-
-.profile-text a:hover u {
-    text-decoration-color: var(--darkcolor);
-}
-
-/* Keep bio links the exact same color as the surrounding text in every state,
-   including :visited — otherwise the browser's default visited-link color makes
-   already-clicked links (Wharton, etc.) look like a different color. */
+/* Bio inline links: present and clickable, but not highlighted or underlined.
+   Same color as the surrounding text in every state (including :visited, whose
+   browser default would otherwise tint clicked links) and no underline, so
+   they read as plain text. */
 .profile-text a,
-.profile-text a:visited,
-.profile-text a u {
+.profile-text a:visited {
     color: inherit;
+    text-decoration: none;
+    box-shadow: none;
 }
 
 /* Email address shown as a line just below the name. Styled as plain (bold)
