@@ -54,13 +54,8 @@ params:
           email: ebergamo@wharton.upenn.edu
           subtitle: "<strong>Welcome to my website!</strong> I am a Ph.D. candidate in the [Operations, Information and Decisions](https://oid.wharton.upenn.edu)
           department at [The Wharton School](https://www.wharton.upenn.edu) of the University of Pennsylvania.
-          My research focuses on data-driven design and analysis of service systems, anchored in empirically grounded customer behavior.
-          <br>  <br>
-
-          I am originally from São Paulo, Brazil. Prior to my Ph.D., I received my bachelor's and master's degrees at the [University of
-          Pennsylvania School of Engineering and Applied Science](https://www.seas.upenn.edu).
-          <br>    
-          "
+          My research focuses on data-driven design and analysis of service systems, anchored in empirically grounded customer behavior.\n\nI am originally from São Paulo, Brazil. Prior to my Ph.D., I received my bachelor's and master's degrees at the [University of
+          Pennsylvania School of Engineering and Applied Science](https://www.seas.upenn.edu)."
           imageUrl: "images/profile_pic.jpg"
           imageTitle: Enzo Bergamo
           imageWidth: 320

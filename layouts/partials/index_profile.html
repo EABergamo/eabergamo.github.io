@@ -7,7 +7,7 @@
             <a class="profile-email" href="mailto:{{ . }}">{{ . }}</a>
             {{- end }}
             {{- partial "social_icons.html" -}}
-            <span>{{ .subtitle | markdownify }}</span>
+            <div class="profile-bio">{{ .subtitle | markdownify }}</div>
 
             {{- with .buttons }}
             <div class="buttons">

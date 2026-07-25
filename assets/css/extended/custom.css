@@ -201,12 +201,20 @@
     box-shadow: none;
 }
 
-/* The gap between the bio's two paragraphs is ~29px, so the default ~12px gap
-   above the bio made the social links look glued to it. Add space above the
-   bio (the direct-child span) so the buttons→bio gap is clearly the larger of
-   the two — separating the links group from the bio. */
-.profile-text > span {
-    margin-top: 22px;
+/* Bio rendered as real paragraphs so the spacing hierarchy is controllable:
+   a small gap between the two paragraphs, and a slightly larger gap above the
+   bio so the social links read as a separate group without everything feeling
+   spread out. */
+.profile-bio {
+    margin-top: 6px;   /* + the 12px flex gap ≈ 18px above the bio */
+}
+
+.profile-bio p {
+    margin: 0 0 12px;  /* gap between the two paragraphs */
+}
+
+.profile-bio p:last-child {
+    margin-bottom: 0;
 }
 
 /* Email address shown as a line just below the name. Styled as plain (bold)
