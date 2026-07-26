@@ -96,7 +96,7 @@ body:not(.dark) #sun {
 }
 
 #menu a:hover {
-    color: #4a4a4a;
+    color: #5a5a5a;
 }
 
 /* Border-bottom (not box-shadow) so the underline is part of the label's
@@ -116,7 +116,7 @@ body:not(.dark) #sun {
    text and underline shift together instead of the line staying its lighter
    gray. The active tab keeps its orange underline. */
 #menu a:hover .menu-label:not(.active) {
-    border-bottom-color: #4a4a4a;
+    border-bottom-color: #5a5a5a;
 }
 
 .lang-switch li,
