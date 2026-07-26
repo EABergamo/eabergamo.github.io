@@ -96,7 +96,7 @@ body:not(.dark) #sun {
 }
 
 #menu a:hover {
-    color: var(--primary);
+    color: #4a4a4a;
 }
 
 /* Border-bottom (not box-shadow) so the underline is part of the label's
@@ -112,11 +112,11 @@ body:not(.dark) #sun {
     border-bottom-color: var(--darkcolor);
 }
 
-/* On hover, change the underline to the same color the text moves to (dark),
-   so text and underline shift together instead of the line staying gray. The
-   active tab keeps its orange underline. */
+/* On hover, change the underline to the same medium-gray the text moves to, so
+   text and underline shift together instead of the line staying its lighter
+   gray. The active tab keeps its orange underline. */
 #menu a:hover .menu-label:not(.active) {
-    border-bottom-color: var(--primary);
+    border-bottom-color: #4a4a4a;
 }
 
 .lang-switch li,
