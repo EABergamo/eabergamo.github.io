@@ -112,6 +112,13 @@ body:not(.dark) #sun {
     border-bottom-color: var(--darkcolor);
 }
 
+/* On hover, change the underline to the same color the text moves to (dark),
+   so text and underline shift together instead of the line staying gray. The
+   active tab keeps its orange underline. */
+#menu a:hover .menu-label:not(.active) {
+    border-bottom-color: var(--primary);
+}
+
 .lang-switch li,
 .lang-switch ul,
 .logo-switches {
