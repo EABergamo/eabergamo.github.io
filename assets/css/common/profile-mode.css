@@ -58,8 +58,8 @@
 /* Desktop photo size (the <=700px breakpoint sets its own smaller size).
    transform:none cancels the theme's scale so the width is exact. */
 .profile .profile-image img {
-    width: 260px;
-    height: 260px;
+    width: 220px;
+    height: 220px;
     transform: none;
 }
 
