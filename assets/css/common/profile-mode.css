@@ -55,6 +55,14 @@
     border-radius: 0;
 }
 
+/* Desktop photo size (the <=700px breakpoint sets its own smaller size).
+   transform:none cancels the theme's scale so the width is exact. */
+.profile .profile-image img {
+    width: 260px;
+    height: 260px;
+    transform: none;
+}
+
 /* Narrow screens: stack with the image on top (centered), text left-aligned,
    with tight padding/gaps (like the old layout) so it fits without scrolling. */
 @media screen and (max-width: 700px) {
