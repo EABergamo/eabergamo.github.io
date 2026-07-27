@@ -112,11 +112,12 @@ body:not(.dark) #sun {
     border-bottom-color: var(--darkcolor);
 }
 
-/* On hover, change the underline to the same medium-gray the text moves to, so
-   text and underline shift together instead of the line staying its lighter
-   gray. The active tab keeps its orange underline. */
+/* On hover, move the underline to the same tone as the text. The solid 2px
+   line reads darker than thin glyphs at an identical value, so nudge it a touch
+   lighter than the text (#5a5a5a) to make the two look matched. The active tab
+   keeps its orange underline. */
 #menu a:hover .menu-label:not(.active) {
-    border-bottom-color: #5a5a5a;
+    border-bottom-color: #6f6f6f;
 }
 
 .lang-switch li,
